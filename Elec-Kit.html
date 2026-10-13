@@ -1,0 +1,2182 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#0a0b0d" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+  <title>Elec-Kit</title>
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAKc0lEQVR42u2aeZBcVfXHv+fe+97r1z3dmZ4lycxkMlsyhAhkgV8gglopLAxqEBfEtaS01BJF8tP8oQU/y6LEtVwo1AItBRVwwYUql1IRKZUSGUksHQIxFkwyk3WW7um933v33vP74830LBkIWPyhVX3/mrrvvnvO59xzv+e8rqFKtY7/5iHwXz6aAE2AJkAToAnQBGgCNAGaAE2AJkAToAnQBPg3h1phjnn5DBEAGAsA8kVijq3EOy+bYYaNbckXDiDEcheZoQ2EIN8DwEEIyy8CgOsABK3n/LYMV5GQbAwI5CgAHEQwFgRYC145dmpZpLla53IZECQIAINJStHZZp6ZKN94K4Rq+erNsncNB9GS4L3w8PPpGbZGZNLwXBhLCdeeztmoTn4SkS59/AuiNZu65Qb4HrSlpA8C14Izd6KF34W0oXSyfvcDpRtvIpHmchVSsCk7F16U/csP9F+fyO24EnDanvit2jzE1QCEufAwQEuP2zLs/KM46xq0zHAU54uzl77NTB7J3Hun95qXg6h+zy9KN95EUK0Pf9+emp551aUCne0HH1XnDHAYmX+O2VzB2XEBmJfstkIKhZEt5oTryA19UAKmKnu74nQkuQrKgRAAYC0SHiUXnOZqHaD4uMlPQCzY4Mgg0qClJzBb4mIBtToRhSNPlK+/2ZZOZr70RXXBMA/0tN33S8q0yKFejjT5XmHP9WC0H/s9AA41tG4wnAEgJYhlf0/2wP1QCtbOZTwBxoBEbJ6SCXtyunbvA3r/k5RKOFe8zLtmN7SBMZTyzaEj9ft/Yf55lFxHbd3kvuFVorMNxizJOqVAkvyELVVLb/uIKU0k3/0h/3/fyaG2U3lz4gRNemrH+SKbqd12jzk2Jrv6Kv93O5j9972ZujoQzTE8qwqRlJASJJj1kqeWAdKHxwq73xON/03SOuZK9e47kw/e0HLnJ0iK8OGR4uvfbwrjgAdEgGm75I+yq4ODAEKCLZSM92EGPKf0gVuip//qXry75faPcaVGKd8eOV7ct0+gLfGuq2vf+klh716puu3JU+VP3Qqwt2eXWr+Ww7lLeMa9tpbg2mOn8juuze+4NnfRlbWv3UcAa9vAI0HVm26Lxven3ru30z7RcXzEOefi6l3fjP60H46qfPjTpnAsccUb2x//XfY3D2Ru/6q6YBhSUqaFWnxKp6BULJQCLbUv3BXc+zOZHsh877OU8OaU2nGEWiOya2ypktizq+Wmm62ZlsNDbY8/1DbykDinn4NwLpNXPgEQh5H++yFIySZnL59cEGkGuY4tVaNHDgjRJjpag58+SFKK7m4+PGJG/2U3DeqDh0m0Jj/5QefCzQzgiks5CPX+J20uB6Fgtdp+HpSMNwwe/DXgoV6O/vIPubFv3gpDaxiDMJJDa9WGAXBISd+58CVn6vgKdYARqvVdq379DSgFayiZZICc+L4ypORCiYtlsqnKZ25jhAAILQSH64HNFZhrwsmKtlUcaq7VWRvRvqp0/S3ByM8IWUap/TcPqsu2A2BUEte+mbKrqnd8vbLvc+7ll1DbquWyzsz1ACAYw5Ua7FlVKPbSceTGvpUl3Fokffgeh/nMt77sXLadC2U4Co4Qa1ebIyeIEqyrXAvgKsATrgPmxDv2qAs3kPRZB6K/G2EEKRgm8d5r3Ff8T/irP+jx0crHv5L+zq3L+wCiOXeVRDIBY2HtXKatDEAEqRBG0SMHoBSspmRSbd00J1BKcRjJtozasin4w+Ho4ZHEO/bAUVwP9f4naZ2SAz2is1NPP1O77bupz38UoQ4eetR56fbkDW/nRRLKp2egFEmHZwqkZMvn9hXeen39vh97b73S230ZG4NYQhYYFOcLdvwkuQ6UokyqkUVnXOJaHaaqxw7nXvba3M5Xz1y6q3jNXgCIDJtZDgpxl5L69F6Z6at+747p7CW5od0zrRflL7vanp6R2Yz/0etgdfXub8/07Jrp3VV413u4WGbDXChxqcrFCiINgPNFNnkQGPDecmXi6quMPla67mM2XyQp2eQ5XwDAgNq2iTgZHXkqN/ya6e6d0WOj5LmNQ1BLYm+sGOpNXPUGyBQsQxBsXQ5tgLHUmvaueh2EpEwLR9rZubX1kftrd9yjH/sHl+vqkvPdV18uujpstZ7cd51Y2xH86OdmYpISrvvK94nBdRxFcJy5Rg2A43hvusIWtoieNTCWrU19/iOQbGuFaGRUbuxLXPU68lsp6XMQOds3Z+76Yv2uH9pCTa5fqzaubxSBpa1EzOsqUst7QK4GkII8Z0EErKVkAkRgsLUkBQCuh2COyxwA1prU0p5sUbAo4QLgSCMyAMNRcw1cGIExZ2v5hoaUZG0QRs8CEEuYtVjoYwAiCAFmthYAiXkRsJatJSkZIGZYRoM8LrpzjfGi+cXDWIDR2G1pC83a0OL+am5DAWsWXlkZ4FkGEdH8a9ZaZhZCEJHRRirJdnmHHS+IF8cvMrOUkpl5Xmcaf8Tz1tqGLSHE4pUv8INmpeY3iqKGAdd1Xdet1Wpa60wmXSgUXddVSsX2YsOe61ZrNQC+71trma3jOKVSWQjpeW6MFxMyc7lccRzleV7st7W2XK543sKezxXZ5z4BZlZK5fP5kZHH0+kWa1kpuW3b1snJybGxI2EYDQ72T0wc27JlSzbbGoZhMukfPPgUgN513X9+9LFzzz1XSsFsU6mWfD5fLJYcx9m8eZPW5ujRo6dOnQawevXqycmpvr5eKeXTTz8jpdy06ZzR0YPnnbe5tbU1iiJ6zg8P8XySh5nr9brneY6jnLnhAuS6jpRKCHno0CGttRCiVquPj08cPTp+enK6Xg+kFIVC8ejRiYmJ41NT00IIgIlIaz04OKCUKpfLwxuHjNFKqampad/3t23bmslktNZjY0eMsXS2z6azp5C11lrb3t5eKBSEkImEV6vVgyBwXcdxnFKp5Diqq6srTokDB/7W09MdH/3g4AAzHMcJggAoJZP+fI5BSnnq1OlqtUoknhk7opRihhCiUqmMj0/E9833/Ybq/vsnQETW2qmp6XS6JTbveYmTJ0/29q5zXTeZTG7cuCGRSLS1ZYkoiqLzzz/P87xyuTw7O3vixEnPc4MgSKdbOjs7giBohJOIisXSwMDAzp0XEwmtTRiG/f19mUwGQDbbaq1Zs2a1lOKsd0Cc9foKIfr61pfL5a6urra2bBAE/f19zJzL5avV6lNPHTp+/ITWev4rReVyuXK5bK211kSRXr16tdZmenqmp6dHax37Y4wZHt44Njamtdkw1D88vCGbbU0mk7Ozs93d3Z2dnZs3n+t5ntbmRUihRhYZY4wxzNZalpJiIYoVSYiFQERRZIzV2iSTqSiKurrWdnS0A+woOTU1pZRqLBNCjo6OOo7DjIGBvlQqRUT79x+IZWpwcND3fa31czM8rzoQq1u5XCaidDod14F5HpZSNtyKabU2sZwqpWKNj9Mm9max4MZHF6+MrSybObvGPP//VpFSMGNxuWlUqMWZOj+98qPF9asxs7iuNWaeTxV7YQDN30abAE2AJkAToAnQBGgCNAGaAE2AJsB/1vh/lyi6TBLUyZcAAAAASUVORK5CYII=">
+  <style>
+    :root {
+      --red: #E1002A;
+      --dark: #111214;
+      --darker: #0a0b0d;
+      --card-bg: #1a1c20;
+      --card-border: #2a2d33;
+      --text-primary: #f0f2f5;
+      --text-secondary: #8a8f9a;
+      --text-muted: #555a66;
+      --input-bg: #12141a;
+      --input-border: #2e323c;
+      --result-bg: #1f0a0d;
+      --result-border: #5a1020;
+      --formula-bg: #13151a;
+      --header-bg: #141618;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --dark: #f4f6f8;
+        --darker: #e8eaed;
+        --card-bg: #ffffff;
+        --card-border: #e0e4e8;
+        --text-primary: #111214;
+        --text-secondary: #555a66;
+        --text-muted: #9aa0ae;
+        --input-bg: #fafbfc;
+        --input-border: #d0d5dd;
+        --result-bg: #fff5f5;
+        --result-border: #ffcfcf;
+        --formula-bg: #f8f9fa;
+        --header-bg: #fafafa;
+      }
+    }
+
+    * { font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif; box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { touch-action: pan-x pan-y; }
+    body { background: var(--dark); color: var(--text-primary); -webkit-text-size-adjust: none; }
+
+    .top-bar {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+      background: var(--darker);
+      border-bottom: 1px solid var(--card-border);
+      display: flex; align-items: flex-end;
+      padding: env(safe-area-inset-top, 36px) 20px 12px 20px;
+      min-height: calc(52px + env(safe-area-inset-top, 36px));
+    }
+    .top-bar-title { font-size: 1.1rem; font-weight: 900; color: var(--red); letter-spacing: -0.03em; }
+
+    #main-menu {
+      min-height: 100vh;
+      padding: calc(env(safe-area-inset-top, 36px) + 88px) 20px 40px;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+    }
+    .menu-header { text-align: center; margin-bottom: 2.5rem; }
+    .menu-header h1 { font-size: 3rem; font-weight: 900; color: var(--red); letter-spacing: -0.05em; line-height: 1; }
+    .menu-header p { color: var(--text-muted); font-size: 0.85rem; margin-top: 8px; }
+    .menu-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; width: 100%; max-width: 480px; }
+    .menu-btn {
+      padding: 18px 16px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      color: var(--text-primary);
+      font-size: 0.92rem; font-weight: 700;
+      cursor: pointer; transition: all 0.2s;
+      text-align: left; position: relative; overflow: hidden;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .menu-btn::before {
+      content: ''; position: absolute;
+      top: 0; left: 0; right: 0; height: 2px;
+      background: var(--red);
+      transform: scaleX(0); transform-origin: left;
+      transition: transform 0.2s;
+    }
+    .menu-btn:hover { border-color: var(--red); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(225,0,42,0.15); }
+    .menu-btn:hover::before { transform: scaleX(1); }
+    .menu-btn .btn-label { font-size: 0.75rem; color: var(--text-muted); margin-top: 4px; display: block; font-weight: 400; }
+
+    #content-area { display: none; padding-top: calc(env(safe-area-inset-top, 36px) + 52px); }
+    .nav-bar {
+      position: sticky; top: calc(env(safe-area-inset-top, 36px) + 52px); z-index: 100;
+      background: var(--darker);
+      border-bottom: 1px solid var(--card-border);
+      padding: 12px 20px;
+      display: flex; align-items: center; gap: 12px;
+    }
+    .back-link {
+      color: var(--red); font-weight: 700; cursor: pointer;
+      display: flex; align-items: center; gap: 6px;
+      font-size: 0.9rem; padding: 6px 10px;
+      border-radius: 6px; border: 1px solid var(--card-border);
+      transition: all 0.2s;
+    }
+    .back-link:hover { background: rgba(225,0,42,0.1); border-color: var(--red); }
+    .nav-title { font-size: 1rem; font-weight: 700; color: var(--text-primary); }
+
+    #calc-wrapper { padding: 24px 12px 40px; margin-top: 0; }
+    .container { max-width: 900px; margin: 0 auto; }
+    .card { background: var(--card-bg); border-radius: 12px; border: 1px solid var(--card-border); margin-bottom: 20px; overflow: hidden; }
+    .card-header { display: flex; align-items: center; justify-content: space-between; padding: 14px 18px; background: var(--header-bg); border-bottom: 1px solid var(--card-border); }
+    .card-header h2 { margin: 0; font-size: 1rem; font-weight: 700; color: var(--text-primary); }
+    .card-body { padding: 16px; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+    table { width: 100%; border-collapse: collapse; border: 1px solid var(--card-border); table-layout: auto; }
+    th { background: var(--header-bg); color: var(--text-secondary); font-size: 0.8rem; padding: 10px 4px; border: 1px solid var(--card-border); white-space: nowrap; vertical-align: middle; text-align: center; }
+    td { padding: 8px 4px; border: 1px solid var(--card-border); text-align: center; vertical-align: middle; }
+    .category { color: var(--text-primary); font-weight: 700; font-size: 0.78rem; white-space: nowrap; padding: 8px 6px; }
+
+    .calc-block { width: 100%; }
+
+    .input-row {
+      display: flex; flex-wrap: nowrap; gap: 6px;
+      width: 100%; margin-bottom: 0;
+    }
+    .input-col {
+      flex: 1 1 0; min-width: 0;
+      display: flex; flex-direction: column; gap: 4px;
+    }
+    .input-col label {
+      font-size: 0.72rem; color: var(--text-secondary);
+      text-align: center; white-space: nowrap;
+      overflow: hidden; text-overflow: ellipsis;
+      line-height: 1.3;
+    }
+    .input-col input {
+      width: 100%; height: 36px; padding: 0 4px;
+      background: var(--input-bg); border: 1px solid var(--input-border); border-radius: 6px;
+      color: var(--text-primary); text-align: center; font-size: 0.88rem; font-weight: 500;
+      font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif; transition: border-color 0.2s, font-size 0.15s;
+      box-sizing: border-box; min-width: 0;
+    }
+    .input-col input::placeholder { color: var(--text-muted); font-size: 0.75rem; }
+    .input-col input:focus { border-color: var(--red); outline: none; }
+
+    .result-row {
+      display: flex; align-items: stretch;
+      border: 1px solid var(--card-border);
+      border-radius: 0 0 8px 8px;
+      margin-top: 6px; overflow: hidden;
+      min-height: 40px;
+    }
+    .result-label {
+      background: var(--header-bg);
+      color: var(--text-secondary);
+      font-size: 0.75rem; font-weight: 700;
+      padding: 0 10px;
+      display: flex; align-items: center; justify-content: center;
+      white-space: nowrap;
+      border-right: 1px solid var(--card-border);
+      flex-shrink: 0;
+      width: auto;
+    }
+
+    .result-value {
+      flex: 1;
+      background: var(--result-bg); color: var(--red);
+      font-weight: 800; font-size: 1rem;
+      display: flex; align-items: center; justify-content: center;
+      min-height: 40px; min-width: 0;
+      overflow: visible;
+      font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;
+      transition: font-size 0.1s;
+      padding: 0 6px;
+      white-space: nowrap;
+    }
+    .result-value.result-ok { color: #10b981 !important; background: rgba(16,185,129,0.08) !important; }
+
+    .input-cell input {
+      width: 90%; max-width: 80px; min-width: 46px;
+      height: 36px; padding: 0;
+      background: var(--input-bg); border: 1px solid var(--input-border); border-radius: 6px;
+      color: var(--text-primary); text-align: center; font-size: 0.9rem; font-weight: 500;
+      display: block; margin: 0 auto;
+      font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif; transition: border-color 0.2s;
+    }
+    .input-cell input::placeholder { color: var(--text-muted); font-size: 0.78rem; font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif; }
+    .input-cell input:focus { border-color: var(--red); outline: none; }
+    .result-cell {
+      background: var(--result-bg); color: var(--red); font-weight: 800; font-size: 0.95rem;
+      border: 1px solid var(--result-border) !important;
+      height: 36px; line-height: 36px;
+      font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif; min-width: 60px;
+    }
+    .result-ok { color: #10b981 !important; background: rgba(16,185,129,0.08) !important; border-color: #065f46 !important; }
+
+    .formula {
+      background: var(--formula-bg);
+      border-left: 3px solid var(--red);
+      padding: 12px 14px; margin-top: 14px;
+      font-size: 0.82rem; color: var(--text-secondary);
+      border-radius: 0 6px 6px 0;
+    }
+    .fml-line {
+      display: flex; align-items: center; flex-wrap: nowrap; gap: 4px;
+      margin-bottom: 6px; line-height: 1.6;
+    }
+    .fml-line:last-child { margin-bottom: 0; }
+    .fml-label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 0.82rem;
+      line-height: 1.6;
+    }
+    .fml-frac-row {
+      display: flex; justify-content: flex-start; align-items: center;
+      font-size: 0.82rem; overflow-x: auto; -webkit-overflow-scrolling: touch;
+      padding-bottom: 2px;
+    }
+    .frac {
+      display: inline-flex; flex-direction: column; align-items: stretch;
+      vertical-align: middle; margin: 0 3px; text-align: center;
+      flex-shrink: 0;
+    }
+    .frac .num {
+      border-bottom: 1.5px solid var(--text-secondary);
+      padding: 1px 4px 3px; text-align: center; white-space: nowrap; line-height: 1.6;
+    }
+    .frac .num.wrap { white-space: normal; }
+    .frac .den { padding: 3px 4px 1px; text-align: center; white-space: nowrap; }
+
+    .tab-btn,.seg-btn{
+      flex:1;min-width:0;
+      padding:10px 4px;background:var(--input-bg);border:1px solid var(--input-border);
+      color:var(--text-secondary);font-weight:700;font-size:0.82rem;
+      cursor:pointer;border-radius:8px;transition:all 0.2s;
+      font-family:'Malgun Gothic','맑은 고딕','Apple SD Gothic Neo',sans-serif;
+      text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .tab-btn.active,.seg-btn.active{background:var(--red);color:white;border-color:var(--red);}
+    .tab-container{display:flex;flex-wrap:nowrap;gap:6px;margin-bottom:14px;width:100%;}
+    .tab-container.tabs-3 .tab-btn{font-size:0.82rem!important;padding:10px 4px!important;}
+    .tab-container.tabs-vd{flex-wrap:wrap!important;}
+    .tab-container.tabs-vd .tab-btn{flex:1 1 calc(50% - 3px)!important;max-width:calc(50% - 3px)!important;font-size:0.82rem!important;padding:10px 4px!important;white-space:nowrap!important;}
+    .amp-display-table{display:none;margin-top:10px;table-layout:fixed!important;width:100%!important;}
+    .amp-display-table.active{display:table;}
+    .seg-group{display:flex;flex-wrap:nowrap;gap:6px;margin-bottom:14px;width:100%;}
+
+    .tab-btn:active, .seg-btn:active {
+      transform: scale(0.96);
+      opacity: 0.8;
+      transition: transform 0.08s, opacity 0.08s;
+    }
+    .menu-btn:active, .menu-btn.pressing {
+      transform: scale(0.96);
+      border-color: var(--red);
+      box-shadow: 0 4px 16px rgba(225,0,42,0.25);
+      opacity: 0.85;
+      transition: transform 0.08s, opacity 0.08s, box-shadow 0.08s;
+    }
+    .menu-btn.pressing::before { transform: scaleX(1); }
+
+    .card-header h2 { flex: 1; }
+
+    .btn-reset,.btn-copy,.btn-save{
+      font-size:0.72rem;font-weight:700;color:var(--text-muted);
+      background:none;border:1px solid var(--card-border);
+      border-radius:5px;padding:4px 9px;cursor:pointer;
+      font-family:'Malgun Gothic','맑은 고딕','Apple SD Gothic Neo',sans-serif;
+      transition:color 0.15s,border-color 0.15s;
+      white-space:nowrap;flex-shrink:0;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .btn-copy,.btn-save{margin-left:6px;}
+    .btn-reset:active,.btn-copy:active,.btn-save:active{transform:scale(0.95);}
+    .btn-reset:hover,.btn-copy:hover{color:var(--red);border-color:var(--red);}
+    .btn-save:hover{color:#10b981;border-color:#10b981;}
+    .p7-lbl { width:140px;min-width:140px;justify-content:center; }
+    .p6-lbl { width:100px;min-width:100px; }
+    .p8-lw { min-width:125px;width:125px;justify-content:center;padding:0 8px;font-size:0.75rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis; }
+    .p8-elw { min-width:130px;width:130px;flex-shrink:0;justify-content:center;padding:0 6px;font-size:0.75rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis; }
+    .p8-whlw { min-width:130px;width:130px;justify-content:center;padding:0 6px;font-size:0.75rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis; }
+    select.p8-sel { width:100%;height:36px;padding:0 4px;background:var(--input-bg);border:1px solid var(--input-border);border-radius:6px;color:var(--text-primary);font-size:0.8rem;cursor:pointer; }
+    .p8-dd { position:relative; }
+    .p8-dd-btn { width:100%;height:36px;padding:0 10px;background:var(--input-bg);border:1px solid var(--input-border);border-radius:6px;color:var(--text-primary);font-size:0.8rem;cursor:pointer;text-align:left;display:flex;align-items:center;justify-content:space-between;gap:4px;font-family:inherit; }
+    .p8-dd-arrow { flex-shrink:0;transition:transform .15s;color:var(--text-muted); }
+    .p8-dd-btn.open .p8-dd-arrow { transform:rotate(180deg); }
+    .p8-dd-list { position:absolute;top:calc(100% + 4px);left:0;right:0;z-index:50;background:var(--card-bg);border:1px solid var(--card-border);border-radius:6px;box-shadow:0 4px 16px rgba(0,0,0,0.25);max-height:220px;overflow-y:auto; }
+    .p8-dd-opt { padding:9px 10px;font-size:0.8rem;color:var(--text-primary);cursor:pointer; }
+    .p8-dd-opt:hover, .p8-dd-opt.active { background:var(--input-bg);color:var(--red); }
+    .popup-inner { background:var(--card-bg);border:1px solid var(--card-border);border-radius:12px;padding:20px;width:100%;max-width:360px; }
+    .popup-title { font-size:0.95rem;font-weight:700;color:var(--text-primary);margin-bottom:14px; }
+    .popup-input { width:100%;height:40px;padding:0 10px;background:var(--input-bg);border:1px solid var(--input-border);border-radius:6px;color:var(--text-primary);font-size:0.9rem;box-sizing:border-box; }
+    .popup-actions { display:flex;gap:8px;margin-top:14px; }
+    .popup-btn-cancel { flex:1;height:38px;background:none;border:1px solid var(--card-border);border-radius:6px;color:var(--text-secondary);font-size:0.85rem;font-weight:700;cursor:pointer;-webkit-tap-highlight-color:transparent; }
+    .popup-btn-ok { flex:2;height:38px;background:var(--red);border:none;border-radius:6px;color:#fff;font-size:0.85rem;font-weight:700;cursor:pointer;-webkit-tap-highlight-color:transparent; }
+    .fml-nowrap { white-space:nowrap;overflow-x:auto;display:block; }
+
+    @media (max-width: 480px) {
+      .menu-grid { grid-template-columns: 1fr 1fr; }
+      .menu-header h1 { font-size: 2.2rem; }
+      th { font-size: 0.7rem; padding: 8px 2px; }
+      .input-cell input, .result-cell { height: 32px; line-height: 32px; font-size: 0.82rem; }
+    }
+    @media (max-width: 400px) {
+      .input-row { flex-wrap: wrap; }
+      .input-col { flex: 1 1 calc(33.33% - 4px); min-width: 0; }
+    }
+
+    .hamburger-btn {
+      background: none; border: none; cursor: pointer;
+      color: var(--text-secondary); padding: 9px 8px 2px 0;
+      display: flex; align-items: center; flex-shrink: 0;
+      transition: color 0.2s; -webkit-tap-highlight-color: transparent;
+      margin-right: 8px;
+    }
+    .hamburger-btn:active { opacity: 0.6; }
+
+    #sidebar-overlay {
+      position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.45); z-index: 300;
+      opacity: 0; pointer-events: none; transition: opacity 0.25s;
+    }
+    #sidebar-overlay.open { opacity: 1; pointer-events: auto; }
+    #sidebar {
+      position: fixed; top: 0; left: 0; bottom: 0;
+      width: 300px; max-width: 85vw;
+      background: var(--darker); border-right: 1px solid var(--card-border);
+      z-index: 301; transform: translateX(-100%);
+      transition: transform 0.28s cubic-bezier(0.4,0,0.2,1);
+      display: flex; flex-direction: column; overflow: hidden;
+    }
+    #sidebar.open { transform: translateX(0); }
+    #sidebar-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: calc(env(safe-area-inset-top,36px) + 14px) 16px 14px;
+      background: var(--darker); border-bottom: 1px solid var(--card-border);
+      flex-shrink: 0;
+    }
+    .sidebar-title { font-size: 1rem; font-weight: 900; color: var(--red); letter-spacing: -0.03em; }
+    .sidebar-close-btn {
+      background: none; border: 1px solid var(--card-border); cursor: pointer;
+      color: var(--text-secondary); font-size: 0.9rem; padding: 4px 9px;
+      border-radius: 6px; transition: color 0.15s, border-color 0.15s;
+      font-family: 'Malgun Gothic','맑은 고딕','Apple SD Gothic Neo',sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .sidebar-close-btn:hover { color: var(--red); border-color: var(--red); }
+    #sidebar-body { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 6px 0 env(safe-area-inset-bottom,20px); }
+    .sidebar-cat { border-bottom: 1px solid var(--card-border); }
+    .sidebar-cat-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 11px 14px 9px;
+      font-size: 0.78rem; font-weight: 900; color: var(--text-secondary);
+      letter-spacing: 0.01em;
+      background: var(--darker); cursor: pointer;
+      -webkit-tap-highlight-color: transparent; user-select: none;
+    }
+    .sidebar-cat-meta { display: flex; align-items: center; gap: 6px; }
+    .sidebar-cat-count {
+      background: var(--card-bg); color: var(--text-muted);
+      font-size: 0.68rem; font-weight: 700; padding: 1px 7px;
+      border-radius: 10px; border: 1px solid var(--card-border);
+    }
+    .sidebar-cat-clear {
+      font-size: 0.65rem; font-weight: 700; color: var(--text-muted);
+      background: none; border: 1px solid var(--card-border);
+      border-radius: 4px; padding: 2px 7px; cursor: pointer;
+      font-family: 'Malgun Gothic','맑은 고딕','Apple SD Gothic Neo',sans-serif;
+      transition: color 0.15s, border-color 0.15s;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .sidebar-cat-clear:hover { color: var(--red); border-color: var(--red); }
+    .sidebar-cat-chevron { flex-shrink: 0; transition: transform 0.22s; color: var(--text-muted); }
+    .sidebar-cat-header.open .sidebar-cat-chevron { transform: rotate(90deg); }
+    .sidebar-cat-body { padding: 0 8px 8px; display: none; }
+    .sidebar-cat-body.open { display: block; }
+    .sidebar-hist-item {
+      display: flex; align-items: flex-start; gap: 8px;
+      padding: 8px 10px; margin-top: 5px;
+      background: var(--card-bg); border-radius: 8px; border: 1px solid var(--card-border);
+    }
+    .sidebar-hist-text {
+      flex: 1; font-size: 0.72rem; color: var(--text-secondary);
+      line-height: 1.65; white-space: pre-wrap; word-break: break-all;
+    }
+    .sidebar-hist-actions { display: flex; flex-direction: column; gap: 4px; flex-shrink: 0; margin-top: 2px; }
+    .sidebar-hist-copy, .sidebar-hist-del {
+      font-size: 0.65rem; font-weight: 700; color: var(--text-muted);
+      background: none; border: 1px solid var(--card-border); border-radius: 4px;
+      padding: 3px 7px; cursor: pointer; white-space: nowrap;
+      font-family: 'Malgun Gothic','맑은 고딕','Apple SD Gothic Neo',sans-serif;
+      transition: color 0.15s, border-color 0.15s;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .sidebar-hist-copy:hover { color: var(--red); border-color: var(--red); }
+    .sidebar-hist-del:hover { color: var(--red); border-color: var(--red); }
+    .sidebar-empty { padding: 8px 14px 12px; font-size: 0.75rem; color: var(--text-muted); }
+    .toast {
+      position: fixed; left: 60px; right: 60px; bottom: 32px; z-index: 20000;
+      min-height: 48px; padding: 14px 16px;
+      display: flex; align-items: center; justify-content: center;
+      background: rgba(17,17,17,0.9); color: #f4eff4;
+      font-size: 14px; line-height: 20px; text-align: center; letter-spacing: 0.25px;
+      border-radius: 24px;
+      box-shadow: 0 3px 5px -1px rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12);
+      opacity: 0; transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      pointer-events: none;
+    }
+    .toast.show { opacity: 1; }
+  </style>
+</head>
+<body>
+  <div id="sidebar-overlay" onclick="closeSidebar()"></div>
+  <div id="sidebar">
+    <div id="sidebar-header">
+      <span class="sidebar-title">이력</span>
+      <button class="sidebar-close-btn" onclick="closeSidebar()">✕</button>
+    </div>
+    <div id="sidebar-body"></div>
+  </div>
+
+  <div class="top-bar">
+    <button class="hamburger-btn" onclick="openSidebar()" aria-label="이력 보기">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="2" y="4" width="16" height="2" rx="1" fill="currentColor"/>
+        <rect x="2" y="9" width="16" height="2" rx="1" fill="currentColor"/>
+        <rect x="2" y="14" width="16" height="2" rx="1" fill="currentColor"/>
+      </svg>
+    </button>
+    <span class="top-bar-title">Elec-Kit</span>
+  </div>
+  <div id="main-menu">
+    <div class="menu-header">
+      <h1>Elec-Kit</h1>
+      <p>통합 설비 진단</p>
+    </div>
+    <div class="menu-grid">
+      <button class="menu-btn" onclick="navTo('p1', this)">전원선 진단<span class="btn-label">전압강하 · 단면적 · 길이</span></button>
+      <button class="menu-btn" onclick="navTo('p2', this)">차단기 부하율<span class="btn-label">단상 · 3상 부하율</span></button>
+      <button class="menu-btn" onclick="navTo('p3', this)">축전지 백업 시간<span class="btn-label">축전지 백업 시간</span></button>
+      <button class="menu-btn" onclick="navTo('p4', this)">상불평형 진단<span class="btn-label">상불평형률</span></button>
+      <button class="menu-btn" onclick="navTo('p5', this)">월 전력량 산출<span class="btn-label">단상 · 3상 전력량</span></button>
+      <button class="menu-btn" onclick="navTo('p6', this)">발전차 용량 산출<span class="btn-label">단상 · 3상 발전차 용량</span></button>
+      <button class="menu-btn" onclick="navTo('p7', this)">냉방 용량 산출<span class="btn-label">냉방 용량 kcal/h · RT</span></button>
+      <button class="menu-btn" onclick="navTo('p8', this)">단위 변환<span class="btn-label">전기 · 길이 · 무게 · 부피 등</span></button>
+    </div>
+
+  </div>
+
+  <div id="content-area">
+    <div class="nav-bar">
+      <div class="back-link" onclick="goHome()">◀ 메인</div>
+      <span class="nav-title" id="nav-title"></span>
+    </div>
+    <div id="dynamic-content"></div>
+  </div>
+
+<script>
+const pageTitles = {
+  p1:'전원선 진단', p2:'차단기 부하율', p3:'축전지 백업 시간', p4:'상불평형 진단',
+  p5:'월 전력량 산출', p6:'발전차 용량 산출', p7:'냉방 용량 산출', p8:'단위 변환'
+};
+
+const PAGE_CARDS = {
+  p1: ['card-p1-vd','card-p1-sq','card-p1-len'],
+  p2: ['card-p2'],
+  p3: ['card-p3a','card-p3b','card-p3c'],
+  p4: ['card-p4'],
+  p5: ['card-p5b','card-p5a'],
+  p6: ['card-p6'],
+  p7: ['card-p7'],
+};
+
+let currentPage = 'home';
+
+function navTo(id, btn) {
+  btn.classList.add('pressing');
+  setTimeout(function() {
+    btn.classList.remove('pressing');
+    showPage(id);
+  }, 100);
+}
+
+function showPage(id) {
+  _closeSidebarDirect();
+  currentPage = id;
+  document.getElementById('main-menu').style.display = 'none';
+  document.getElementById('content-area').style.display = 'block';
+  document.getElementById('nav-title').textContent = pageTitles[id] || '';
+  document.getElementById('dynamic-content').innerHTML = pages[id];
+  window.scrollTo(0, 0);
+  if (id==='p1') initP1();
+  if (id==='p5') initP5();
+  if (id==='p2') initP2();
+  if (id==='p6') initP6();
+  if (id==='p8') initP8();
+  initShrinkAll();
+  injectCopyBtns();
+}
+
+function goHome() {
+  _closeSidebarDirect();
+  currentPage = 'home';
+  document.querySelectorAll('.menu-btn.pressing').forEach(function(b){ b.classList.remove('pressing'); });
+  document.getElementById('main-menu').style.display = 'flex';
+  document.getElementById('content-area').style.display = 'none';
+  document.getElementById('dynamic-content').innerHTML = '';
+  window.scrollTo(0, 0);
+}
+
+function v(id) {
+  const el = document.getElementById(id);
+  if (!el) return 0;
+  const val = el.value;
+  if (val===''||val===null) return 0;
+  const n = Number(val);
+  return (isNaN(n) || n < 0) ? 0 : n;
+}
+function vPf(id) {
+  const el = document.getElementById(id);
+  if (!el) return 1;
+  if (el.value === '' || el.value === null) return 1;
+  let n = Number(el.value);
+  if (isNaN(n) || n <= 0) return 0;
+  if (n > 100) n = 100;
+  return n / 100;
+}
+function fmtNum(num, decimals) {
+  if (isNaN(num) || !isFinite(num)) return '-';
+  if (decimals === undefined) decimals = 0;
+  const fixed = num.toFixed(decimals);
+  const parts = fixed.split('.');
+  parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  return parts.join('.');
+}
+function set(id, val) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  let text;
+  if (val === '-' || val === null || val === undefined) {
+    text = '-';
+  } else {
+    const num = Number(String(val).replace(/,/g, ''));
+    text = (isNaN(num) || !isFinite(num)) ? '-' : String(val);
+  }
+  // 무관한 입력이 바뀌어도 계산 함수가 이 결과값까지 통째로 다시 계산해서 쓰는 경우가
+  // 많은데, 결과가 이전과 똑같으면 DOM에 다시 쓰고 autoShrinkEl(캔버스 텍스트 측정)까지
+  // 다시 돌릴 필요가 없다. 값이 실제로 달라졌을 때만 갱신한다.
+  if (el.textContent === text) return;
+  el.textContent = text;
+  autoShrinkEl(el);
+}
+
+const _sc = document.createElement('canvas').getContext('2d');
+
+const INPUT_BASE_PX  = 14.08;
+const RESULT_BASE_PX = 16;
+const INPUT_MIN_PX   = INPUT_BASE_PX  * 0.52;
+const RESULT_MIN_PX  = RESULT_BASE_PX * 0.45;
+
+function _measureText(text, weight, sizePx, font) {
+  _sc.font = `${weight} ${sizePx}px "${font}", sans-serif`;
+  return _sc.measureText(text).width;
+}
+
+// 글자 크기를 base에서 0.5px씩 줄여가며 매번 measureText로 재보는 대신, 같은 후보
+// 크기 집합(base, base-0.5, base-1, ...)에 대해 이분 탐색으로 찾는다. 글자가 작아질수록
+// 폭도 단조 감소하므로 선형 탐색과 정확히 같은 크기를 고르면서 측정 횟수만 줄어든다.
+function _findShrinkSize(measureAt, base, min, maxW) {
+  if (measureAt(base) <= maxW) return base;
+  const maxSteps = Math.ceil((base - min) / 0.5);
+  let lo = 1, hi = maxSteps, best = maxSteps;
+  while (lo <= hi) {
+    const mid = (lo + hi) >> 1;
+    const size = base - mid * 0.5;
+    if (measureAt(size) <= maxW) {
+      best = mid;
+      hi = mid - 1;
+    } else {
+      lo = mid + 1;
+    }
+  }
+  return base - best * 0.5;
+}
+
+function autoShrinkInput(inp) {
+  if (!inp) return;
+  const maxW = inp.clientWidth - 10;
+  if (maxW <= 0) {
+    if (inp.offsetParent === null) return;
+    requestAnimationFrame(function(){ requestAnimationFrame(function(){ autoShrinkInput(inp); }); });
+    return;
+  }
+  const val = inp.value || '';
+  const size = _findShrinkSize(
+    function(s) { return _measureText(val, '500', s, 'Malgun Gothic'); },
+    INPUT_BASE_PX, INPUT_MIN_PX, maxW
+  );
+  inp.style.fontSize = size + 'px';
+}
+
+function autoShrinkEl(el) {
+  if (!el) return;
+  const avail = el.offsetWidth - 12;
+  if (avail <= 0) {
+    if (el.offsetParent === null) return;
+    requestAnimationFrame(function(){ requestAnimationFrame(function(){ autoShrinkEl(el); }); });
+    return;
+  }
+  const text = el.textContent || '';
+  const size = _findShrinkSize(
+    function(s) { return _measureText(text, '800', s, 'Malgun Gothic'); },
+    RESULT_BASE_PX, RESULT_MIN_PX, avail
+  );
+  el.style.fontSize = size + 'px';
+}
+
+document.addEventListener('input', function(e) {
+  if (e.target && e.target.matches('.input-col input')) autoShrinkInput(e.target);
+});
+
+function initShrinkAll() {
+  requestAnimationFrame(function(){ requestAnimationFrame(function(){
+    document.querySelectorAll('#dynamic-content .input-col input').forEach(autoShrinkInput);
+  });});
+}
+
+function resetCard(cardId) {
+  const card = document.getElementById(cardId);
+  if (!card) return;
+  card.querySelectorAll('input').forEach(function(inp) {
+    const def = inp.getAttribute('value');
+    inp.value = (def !== null) ? def : '';
+    autoShrinkInput(inp);
+  });
+  card.querySelectorAll('.result-value').forEach(function(el) {
+    el.textContent = '-'; el.className='result-value'; el.style.color=''; autoShrinkEl(el);
+  });
+  card.querySelectorAll('.seg-group').forEach(function(grp) {
+    const btns = grp.querySelectorAll('.seg-btn');
+    btns.forEach(function(b) { b.classList.remove('active'); });
+    if (btns.length > 0) btns[0].classList.add('active');
+  });
+  card.querySelectorAll('[id$="-1p"],[id$="-3p"]').forEach(function(el) { el.style.display='none'; });
+  card.querySelectorAll('[id$="-1p"]').forEach(function(el) { el.style.display=''; });
+  if (cardId==='card-p5a') p5Phase='1';
+  if (cardId==='card-p5b') p5bPhase='1';
+  if (cardId==='card-p2') p2Phase='1';
+  if (cardId==='card-p6') p6Phase='1';
+  if (cardId==='card-p1-vd') {
+    vdType='bat';
+    document.querySelectorAll('#vd-tabs .tab-btn').forEach(function(b,i){ b.classList.toggle('active',i===0); });
+    const batRow=document.getElementById('vd-bat-row'),comRow=document.getElementById('vd-common-row');
+    if(batRow) batRow.style.display=''; if(comRow) comRow.style.display='none';
+    updateVdFormula();
+  }
+  if (cardId==='card-p1-sq') {
+    sqType='bat';
+    const sqBtns=document.querySelectorAll('#sq-tabs .tab-btn');
+    sqBtns.forEach(function(b,i){ b.classList.toggle('active',i===0); });
+    if(sqBtns[0]) setSqType('bat',sqBtns[0]);
+  }
+  if (cardId==='card-p1-len') {
+    lenType='bat';
+    const lenBtns=document.querySelectorAll('#len-tabs .tab-btn');
+    lenBtns.forEach(function(b,i){ b.classList.toggle('active',i===0); });
+    if(lenBtns[0]) setLenType('bat',lenBtns[0]);
+  }
+}
+
+const pages = {};
+
+pages.p1 = `<div id="calc-wrapper"><div class="container">
+<div class="card" id="card-p1-vd">
+<div class="card-header"><h2>① 전압강하</h2><button class="btn-reset" onclick="resetCard('card-p1-vd','u1')">초기화</button></div>
+<div class="card-body">
+<div class="tab-container tabs-vd" id="vd-tabs">
+<button class="tab-btn active" onclick="setVdType('bat',this)">축전지 DC</button>
+<button class="tab-btn" onclick="setVdType('dc2',this)">DC / AC 단상2선</button>
+<button class="tab-btn" onclick="setVdType('ac3',this)">AC 3상3선</button>
+<button class="tab-btn" onclick="setVdType('ac4',this)">AC 3상4선</button>
+</div>
+<div id="vd-bat-row">
+<div class="calc-block">
+<div class="input-row">
+<div class="input-col"><label>길이[m]</label><input type="number" inputmode="decimal" id="bat_l" placeholder="입력" min="0" oninput="u1()"></div>
+<div class="input-col"><label>부하[A]</label><input type="number" inputmode="decimal" id="bat_i" placeholder="입력" min="0" oninput="u1()"></div>
+<div class="input-col"><label>단면적[mm²]</label><input type="number" inputmode="decimal" id="bat_s" placeholder="입력" min="0" oninput="u1()"></div>
+<div class="input-col"><label>양호조수</label><input type="number" inputmode="decimal" id="bat_n" value="1" min="1" oninput="u1()"></div>
+</div>
+<div class="result-row">
+<div class="result-label">전압강하[V]</div>
+<div class="result-value" id="bat_r">-</div>
+</div>
+</div>
+<div class="formula">
+<div class="fml-label">○ 전압강하[V] =</div>
+<div class="fml-frac-row">
+<span class="frac">
+<span class="num">35.6 × 길이[m] × 부하[A] × 1.125</span>
+<span class="den">1,000 × 단면적[mm²] × 양호조수</span>
+</span>
+</div>
+</div>
+</div>
+<div id="vd-common-row" style="display:none">
+<div class="calc-block">
+<div class="input-row">
+<div class="input-col"><label>길이[m]</label><input type="number" inputmode="decimal" id="vd_l" placeholder="입력" min="0" oninput="u1()"></div>
+<div class="input-col"><label>부하[A]</label><input type="number" inputmode="decimal" id="vd_i" placeholder="입력" min="0" oninput="u1()"></div>
+<div class="input-col"><label>단면적[mm²]</label><input type="number" inputmode="decimal" id="vd_s" placeholder="입력" min="0" oninput="u1()"></div>
+</div>
+<div class="result-row">
+<div class="result-label">전압강하[V]</div>
+<div class="result-value" id="vd_r">-</div>
+</div>
+</div>
+<div class="formula" id="vd-formula">
+<div class="fml-label">○ 전압강하[V] =</div>
+<div class="fml-frac-row">
+<span class="frac">
+<span class="num">35.6 × 길이[m] × 부하[A]</span>
+<span class="den">1,000 × 단면적[mm²]</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="card" id="card-p1-sq">
+<div class="card-header"><h2>② 적정 단면적</h2><button class="btn-reset" onclick="resetCard('card-p1-sq','u1')">초기화</button></div>
+<div class="card-body">
+<div class="tab-container tabs-vd" id="sq-tabs">
+<button class="tab-btn active" onclick="setSqType('bat',this)">축전지 DC</button>
+<button class="tab-btn" onclick="setSqType('dc2',this)">DC / AC 단상2선</button>
+<button class="tab-btn" onclick="setSqType('ac3',this)">AC 3상3선</button>
+<button class="tab-btn" onclick="setSqType('ac4',this)">AC 3상4선</button>
+</div>
+<div class="calc-block">
+<div class="input-row">
+<div class="input-col"><label>길이[m]</label><input type="number" inputmode="decimal" id="sq_l" placeholder="입력" min="0" oninput="u1()"></div>
+<div class="input-col"><label>부하[A]</label><input type="number" inputmode="decimal" id="sq_i" placeholder="입력" min="0" oninput="u1()"></div>
+<div class="input-col"><label>허용 전압강하[V]</label><input type="number" inputmode="decimal" id="sq_e" value="0.5" min="0" oninput="u1()"></div>
+</div>
+<div class="result-row">
+<div class="result-label">단면적[mm²]</div>
+<div class="result-value" id="sq_r">-</div>
+</div>
+</div>
+<div class="formula" id="sq-formula">
+<div class="fml-label">○ 단면적[mm²] =</div>
+<div class="fml-frac-row">
+<span class="frac">
+<span class="num"><span id="sq-k-disp">35.6</span> × 길이[m] × 부하[A] × 1.125</span>
+<span class="den">1,000 × 허용 전압강하[V]</span>
+</span>
+</div>
+<div class="fml-label" style="margin-top:6px">○ 허용 전압강하 기본값 : 0.5V</div>
+</div>
+</div>
+</div>
+<div class="card" id="card-p1-len">
+<div class="card-header"><h2>③ 적정 길이</h2><button class="btn-reset" onclick="resetCard('card-p1-len','u1')">초기화</button></div>
+<div class="card-body">
+<div class="tab-container tabs-vd" id="len-tabs">
+<button class="tab-btn active" onclick="setLenType('bat',this)">축전지 DC</button>
+<button class="tab-btn" onclick="setLenType('dc',this)">DC / AC 단상2선</button>
+<button class="tab-btn" onclick="setLenType('ac3',this)">AC 3상3선</button>
+<button class="tab-btn" onclick="setLenType('ac4',this)">AC 3상4선</button>
+</div>
+<div class="calc-block">
+<div class="input-row">
+<div class="input-col"><label>허용 전압강하[V]</label><input type="number" inputmode="decimal" id="len_e" value="0.5" min="0" oninput="u1()"></div>
+<div class="input-col"><label>단면적[mm²]</label><input type="number" inputmode="decimal" id="len_s" placeholder="입력" min="0" oninput="u1()"></div>
+<div class="input-col"><label>부하[A]</label><input type="number" inputmode="decimal" id="len_i" placeholder="입력" min="0" oninput="u1()"></div>
+</div>
+<div class="result-row">
+<div class="result-label">길이[m]</div>
+<div class="result-value" id="len_r">-</div>
+</div>
+</div>
+<div class="formula" id="len-formula">
+<div class="fml-label">○ 길이[m] =</div>
+<div class="fml-frac-row">
+<span class="frac">
+<span class="num">1,000 × 허용 전압강하[V] × 단면적[mm²]</span>
+<span class="den"><span id="len-k-disp">35.6</span> × 부하[A] × 1.125</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-header"><h2>④ [CV 케이블] 허용전류표 (매입 기준)</h2></div>
+<div class="card-body">
+<div class="tab-container" id="amp-tabs" style="display:flex;gap:6px;margin-bottom:14px">
+<button class="tab-btn active" onclick="tabAmp('tab-dc',this)" style="flex:1">DC / AC 단상2선</button>
+<button class="tab-btn" onclick="tabAmp('tab-ac3',this)" style="flex:1">AC 3상3선 / 3상4선</button>
+</div>
+<table id="tab-dc" class="amp-display-table active" style="table-layout:fixed">
+<thead><tr><th>단면적[mm²]</th><th>허용전류[A]</th><th>허용전류의 80%[A]</th></tr></thead>
+<tbody>
+<tr><td>2.5</td><td>20</td><td>16.0</td></tr>
+<tr><td>4</td><td>26</td><td>20.8</td></tr>
+<tr><td>6</td><td>34</td><td>27.2</td></tr>
+<tr><td>10</td><td>46</td><td>36.8</td></tr>
+<tr><td>16</td><td>61</td><td>48.8</td></tr>
+<tr><td>25</td><td>80</td><td>64.0</td></tr>
+<tr><td>35</td><td>99</td><td>79.2</td></tr>
+<tr><td>50</td><td>119</td><td>95.2</td></tr>
+<tr><td>70</td><td>151</td><td>120.8</td></tr>
+<tr><td>95</td><td>182</td><td>145.6</td></tr>
+<tr><td>120</td><td>210</td><td>168.0</td></tr>
+<tr><td>150</td><td>240</td><td>192.0</td></tr>
+<tr><td>185</td><td>273</td><td>218.4</td></tr>
+<tr><td>240</td><td>321</td><td>256.8</td></tr>
+<tr><td>300</td><td>367</td><td>293.6</td></tr>
+</tbody>
+</table>
+<table id="tab-ac3" class="amp-display-table" style="table-layout:fixed">
+<thead><tr><th>단면적[mm²]</th><th>허용전류[A]</th><th>허용전류의 80%[A]</th></tr></thead>
+<tbody>
+<tr><td>2.5</td><td>18.5</td><td>14.8</td></tr>
+<tr><td>4</td><td>24</td><td>19.2</td></tr>
+<tr><td>6</td><td>31</td><td>24.8</td></tr>
+<tr><td>10</td><td>42</td><td>33.6</td></tr>
+<tr><td>16</td><td>56</td><td>44.8</td></tr>
+<tr><td>25</td><td>73</td><td>58.4</td></tr>
+<tr><td>35</td><td>89</td><td>71.2</td></tr>
+<tr><td>50</td><td>108</td><td>86.4</td></tr>
+<tr><td>70</td><td>136</td><td>108.8</td></tr>
+<tr><td>95</td><td>164</td><td>131.2</td></tr>
+<tr><td>120</td><td>188</td><td>150.4</td></tr>
+<tr><td>150</td><td>216</td><td>172.8</td></tr>
+<tr><td>185</td><td>245</td><td>196.0</td></tr>
+<tr><td>240</td><td>286</td><td>228.8</td></tr>
+<tr><td>300</td><td>328</td><td>262.4</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div></div>`;
+
+let vdType='bat', sqType='bat', lenType='bat';
+const VD_K={dc2:35.6,ac1:35.6,ac3:30.8,ac4:17.8};
+const SQ_K={bat:35.6,dc2:35.6,ac1:35.6,ac3:30.8,ac4:17.8};
+const LEN_K={bat:35.6,dc:35.6,ac1:35.6,ac3:30.8,ac4:17.8};
+const CAT={bat:'축전지DC',dc2:'DC',ac1:'AC 단상',ac3:'AC 3상 3선',ac4:'AC 3상 4선',dc:'DC'};
+
+function initP1(){vdType='bat';sqType='bat';lenType='bat';updateVdFormula();}
+
+function updateVdFormula(){
+  const fd=document.getElementById('vd-formula');
+  if(!fd) return;
+  const k=VD_K[vdType]??35.6;
+  fd.innerHTML=`<div class="fml-label">○ 전압강하[V] =</div>
+    <div class="fml-frac-row">
+      <span class="frac">
+        <span class="num">${k} × 길이[m] × 부하[A]</span>
+        <span class="den">1,000 × 단면적[mm²]</span>
+      </span>
+    </div>`;
+}
+
+function setVdType(t,btn){
+  vdType=t;
+  document.querySelectorAll('#vd-tabs .tab-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  const isBat=(t==='bat');
+  document.getElementById('vd-bat-row').style.display=isBat?'':'none';
+  document.getElementById('vd-common-row').style.display=isBat?'none':'';
+  if(!isBat){updateVdFormula();}
+  u1();
+}
+function setSqType(t,btn){
+  sqType=t;
+  document.querySelectorAll('#sq-tabs .tab-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  const isBat=(t==='bat');
+  const kKey=isBat?'dc2':t;
+  const k=SQ_K[kKey]??35.6;
+  const fd=document.getElementById('sq-formula');
+  if(fd){
+    if(isBat){
+      fd.innerHTML=`<div class="fml-label">○ 단면적[mm²] =</div>
+        <div class="fml-frac-row"><span class="frac"><span class="num"><span id="sq-k-disp">${k}</span> × 길이[m] × 부하[A] × 1.125</span><span class="den">1,000 × 허용 전압강하[V]</span></span></div>
+        <div class="fml-label" style="margin-top:6px">○ 허용 전압강하 기본값 : 0.5V</div>`;
+    } else {
+      fd.innerHTML=`<div class="fml-label">○ 단면적[mm²] =</div>
+        <div class="fml-frac-row"><span class="frac"><span class="num"><span id="sq-k-disp">${k}</span> × 길이[m] × 부하[A]</span><span class="den">1,000 × 허용 전압강하[V]</span></span></div>
+        <div class="fml-label" style="margin-top:6px">○ 허용 전압강하 기본값 : 0.5V</div>`;
+    }
+  }
+  u1();
+}
+function setLenType(t,btn){
+  lenType=t;
+  document.querySelectorAll('#len-tabs .tab-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  const isBat=(t==='bat');
+  const kKey=isBat?'dc':t;
+  const k=LEN_K[kKey]??35.6;
+  const fd=document.getElementById('len-formula');
+  if(fd){
+    if(isBat){
+      fd.innerHTML=`<div class="fml-label">○ 길이[m] =</div>
+        <div class="fml-frac-row"><span class="frac"><span class="num">1,000 × 허용 전압강하[V] × 단면적[mm²]</span><span class="den"><span id="len-k-disp">${k}</span> × 부하[A] × 1.125</span></span></div>`;
+    } else {
+      fd.innerHTML=`<div class="fml-label">○ 길이[m] =</div>
+        <div class="fml-frac-row"><span class="frac"><span class="num">1,000 × 허용 전압강하[V] × 단면적[mm²]</span><span class="den"><span id="len-k-disp">${k}</span> × 부하[A]</span></span></div>`;
+    }
+  }
+  u1();
+}
+function tabAmp(targetId,btn){
+  document.querySelectorAll('.amp-display-table').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('#amp-tabs .tab-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById(targetId).classList.add('active');
+  btn.classList.add('active');
+}
+
+function u1(){
+  if(vdType==='bat'){
+    const l=v('bat_l'),i=v('bat_i'),s=v('bat_s'),n=v('bat_n')||1;
+    const batR=(s>0&&n>0)?(35.6*l*i*1.125/(1000*s*n)):0;
+    const batEl=document.getElementById('bat_r');
+    if(batEl){
+      const hasInput=l>0&&i>0&&s>0;
+      if(hasInput){batEl.textContent=fmtNum(batR,3);batEl.className='result-value'+(batR<=0.5?' result-ok':'');}
+      else{batEl.textContent='-';batEl.className='result-value';}
+      autoShrinkEl(batEl);
+    }
+  } else {
+    const k=VD_K[vdType]??35.6,l=v('vd_l'),i=v('vd_i'),s=v('vd_s');
+    const vdR=s>0?(k*l*i/(1000*s)):0;
+    const vdEl=document.getElementById('vd_r');
+    if(vdEl){
+      const hasInput=l>0&&i>0&&s>0;
+      if(hasInput){vdEl.textContent=fmtNum(vdR,3);vdEl.className='result-value'+(vdR<=0.5?' result-ok':'');}
+      else{vdEl.textContent='-';vdEl.className='result-value';}
+      autoShrinkEl(vdEl);
+    }
+  }
+  if(sqType==='bat'){
+    const kSq=SQ_K.dc2,sl=v('sq_l'),si=v('sq_i'),se=v('sq_e');
+    const sqR=se>0?(kSq*sl*si*1.125/(1000*se)):0;
+    set('sq_r',(sl>0&&si>0&&se>0)?fmtNum(sqR,2):'-');
+  } else {
+    const kSq=SQ_K[sqType]??35.6,sl=v('sq_l'),si=v('sq_i'),se=v('sq_e');
+    const sqR=se>0?(kSq*sl*si/(1000*se)):0;
+    set('sq_r',(sl>0&&si>0&&se>0)?fmtNum(sqR,2):'-');
+  }
+  if(lenType==='bat'){
+    const kLen=LEN_K.dc,le=v('len_e'),ls=v('len_s'),li=v('len_i');
+    const lenR=li>0?(1000*le*ls/(kLen*li*1.125)):0;
+    set('len_r',(ls>0&&li>0)?fmtNum(lenR,2):'-');
+  } else {
+    const kLen=LEN_K[lenType]??35.6,le=v('len_e'),ls=v('len_s'),li=v('len_i');
+    const lenR=li>0?(1000*le*ls/(kLen*li)):0;
+    set('len_r',(ls>0&&li>0)?fmtNum(lenR,2):'-');
+  }
+}
+
+pages.p3=`<div id="calc-wrapper"><div class="container">
+<div class="card" id="card-p3a">
+<div class="card-header"><h2>① 2V (300/600/1000Ah)</h2><button class="btn-reset" onclick="resetCard('card-p3a','u3')">초기화</button></div>
+<div class="card-body">
+<div class="calc-block">
+<div class="input-row">
+<div class="input-col"><label>축전지 총 용량[Ah]</label><input type="number" inputmode="decimal" id="c2v" placeholder="입력" min="0" oninput="u3()"></div>
+<div class="input-col"><label>정류기 부하[A]</label><input type="number" inputmode="decimal" id="ld2v" placeholder="입력" min="0" oninput="u3()"></div>
+</div>
+<div class="result-row">
+<div class="result-label">분[min]</div>
+<div class="result-value" id="m2v">-</div>
+<div class="result-label" style="border-left:1px solid var(--card-border)">시간[H]</div>
+<div class="result-value" id="h2v">-</div>
+</div>
+</div>
+<div class="formula">
+<div class="fml-label">○ 백업 시간[분] =</div>
+<div class="fml-frac-row">
+<span class="frac"><span class="num">축전지 총 용량[Ah] × 1.5</span><span class="den">정류기 부하[A] × 용량계수(3.55)</span></span>
+&nbsp;× 60
+</div>
+</div>
+</div>
+</div>
+<div class="card" id="card-p3b">
+<div class="card-header"><h2>② 12V (100/130/200/220Ah)</h2><button class="btn-reset" onclick="resetCard('card-p3b','u3')">초기화</button></div>
+<div class="card-body">
+<div class="calc-block">
+<div class="input-row">
+<div class="input-col"><label>축전지 총 용량[Ah]</label><input type="number" inputmode="decimal" id="c12va" placeholder="입력" min="0" oninput="u3()"></div>
+<div class="input-col"><label>정류기 부하[A]</label><input type="number" inputmode="decimal" id="ld12va" placeholder="입력" min="0" oninput="u3()"></div>
+</div>
+<div class="result-row">
+<div class="result-label">분[min]</div>
+<div class="result-value" id="m12va">-</div>
+<div class="result-label" style="border-left:1px solid var(--card-border)">시간[H]</div>
+<div class="result-value" id="h12va">-</div>
+</div>
+</div>
+<div class="formula">
+<div class="fml-label">○ 백업 시간[분] =</div>
+<div class="fml-frac-row">
+<span class="frac"><span class="num">축전지 총 용량[Ah] × 1.5</span><span class="den">정류기 부하[A] × 용량계수(4.36)</span></span>
+&nbsp;× 60
+</div>
+</div>
+</div>
+</div>
+<div class="card" id="card-p3c">
+<div class="card-header"><h2>③ 12V (40Ah) - 링먹스</h2><button class="btn-reset" onclick="resetCard('card-p3c','u3')">초기화</button></div>
+<div class="card-body">
+<div class="calc-block">
+<div class="input-row">
+<div class="input-col"><label>축전지 총 용량[Ah]</label><input type="number" inputmode="decimal" id="c12vb" placeholder="입력" min="0" oninput="u3()"></div>
+<div class="input-col"><label>정류기 부하[A]</label><input type="number" inputmode="decimal" id="ld12vb" placeholder="입력" min="0" oninput="u3()"></div>
+</div>
+<div class="result-row">
+<div class="result-label">분[min]</div>
+<div class="result-value" id="m12vb">-</div>
+<div class="result-label" style="border-left:1px solid var(--card-border)">시간[H]</div>
+<div class="result-value" id="h12vb">-</div>
+</div>
+</div>
+<div class="formula">
+<div class="fml-label">○ 백업 시간[분] =</div>
+<div class="fml-frac-row">
+<span class="frac"><span class="num">축전지 총 용량[Ah] × 1.5</span><span class="den">정류기 부하[A] × 용량계수(5.55)</span></span>
+&nbsp;× 60
+</div>
+</div>
+</div>
+</div>
+</div></div>`;
+
+pages.p4=`<div id="calc-wrapper"><div class="container">
+<div class="card" id="card-p4">
+<div class="card-header"><h2>① 상불평형률</h2><button class="btn-reset" onclick="resetCard('card-p4','u4')">초기화</button></div>
+<div class="card-body">
+<div class="calc-block">
+<div class="input-row">
+<div class="input-col"><label>R상[A]</label><input type="number" inputmode="decimal" id="rp" placeholder="입력" min="0" oninput="u4()"></div>
+<div class="input-col"><label>S상[A]</label><input type="number" inputmode="decimal" id="sp" placeholder="입력" min="0" oninput="u4()"></div>
+<div class="input-col"><label>T상[A]</label><input type="number" inputmode="decimal" id="tp" placeholder="입력" min="0" oninput="u4()"></div>
+</div>
+<div class="result-row">
+<div class="result-label">부하 평균[A]</div>
+<div class="result-value" id="ap">-</div>
+<div class="result-label" style="border-left:1px solid var(--card-border)">상불평형률[%]</div>
+<div class="result-value" id="up">-</div>
+</div>
+</div>
+<div class="formula">
+<div class="fml-label">○ 상불평형률[%] =</div>
+<div class="fml-frac-row">
+<span class="frac"><span class="num">최대값(R, S, T) − 최소값(R, S, T)</span><span class="den">평균(R, S, T)</span></span>
+&nbsp;× 100
+</div>
+<div class="fml-label" style="margin-top:6px">○ 상불평형률 30% 이하 적정</div>
+</div>
+</div>
+</div>
+</div></div>`;
+
+pages.p5=`<div id="calc-wrapper"><div class="container">
+<div class="card" id="card-p5b">
+<div class="card-header"><h2>① 월 전력량 (720시간)</h2><button class="btn-reset" onclick="resetCard('card-p5b','u5b')">초기화</button></div>
+<div class="card-body">
+<div class="seg-group">
+<button class="seg-btn active" onclick="p5bSetPhase('1',this)">단상</button>
+<button class="seg-btn" onclick="p5bSetPhase('3',this)">3상(평균 전류)</button>
+</div>
+<div id="p5b-1p">
+<div class="calc-block">
+<div class="input-row">
+<div class="input-col"><label>부하[A]</label><input type="number" inputmode="decimal" id="p5b_l1" placeholder="입력" min="0" oninput="u5b()"></div>
+<div class="input-col"><label>전압[V]</label><input type="number" inputmode="decimal" id="p5b_v1" value="220" min="0" oninput="u5b()"></div>
+<div class="input-col"><label>역률[%]</label><input type="number" inputmode="decimal" id="p5b_pf1" value="100" min="0" max="100" oninput="u5b()"></div>
+</div>
+<div class="result-row">
+<div class="result-label">월 전력량[kWh]</div>
+<div class="result-value" id="p5b_r1">-</div>
+</div>
+</div>
+<div class="formula">
+<div class="fml-label">○ 단상 전력량[kWh] =</div>
+<div class="fml-frac-row">
+<span class="frac">
+<span class="num">전압[V] × 부하[A] × (역률/100) × 720h</span>
+<span class="den">1,000</span>
+</span>
+</div>
+</div>
+</div>
+<div id="p5b-3p" style="display:none">
+<div class="calc-block">
+<div class="input-row">
+<div class="input-col"><label>R상[A]</label><input type="number" inputmode="decimal" id="p5b_r" placeholder="입력" min="0" oninput="u5b()"></div>
+<div class="input-col"><label>S상[A]</label><input type="number" inputmode="decimal" id="p5b_s" placeholder="입력" min="0" oninput="u5b()"></div>
+<div class="input-col"><label>T상[A]</label><input type="number" inputmode="decimal" id="p5b_t" placeholder="입력" min="0" oninput="u5b()"></div>
+<div class="input-col"><label>전압[V]</label><input type="number" inputmode="decimal" id="p5b_v3" value="380" min="0" oninput="u5b()"></div>
+<div class="input-col"><label>역률[%]</label><input type="number" inputmode="decimal" id="p5b_pf3" value="100" min="0" max="100" oninput="u5b()"></div>
+</div>
+<div class="result-row">
+<div class="result-label">월 전력량[kWh]</div>
+<div class="result-value" id="p5b_r3">-</div>
+</div>
+</div>
+<div class="formula">
+<div class="fml-label">○ 3상 전력량[kWh] =</div>
+<div class="fml-frac-row">
+<span class="frac">
+<span class="num">√3 × 전압[V] × {(R+S+T)/3} × (역률/100) × 720h</span>
+<span class="den">1,000</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="card" id="card-p5a">
+<div class="card-header"><h2>② 월 전력량</h2><button class="btn-reset" onclick="resetCard('card-p5a','u5')">초기화</button></div>
+<div class="card-body">
+<div class="seg-group">
+<button class="seg-btn active" onclick="p5SetPhase('1',this)">단상</button>
+<button class="seg-btn" onclick="p5SetPhase('3',this)">3상(평균 전류)</button>
+</div>
+<div id="p5-1p">
+<div class="calc-block">
+<div class="input-row">
+<div class="input-col"><label>부하[A]</label><input type="number" inputmode="decimal" id="p5_l1" placeholder="입력" min="0" oninput="u5()"></div>
+<div class="input-col"><label>전압[V]</label><input type="number" inputmode="decimal" id="p5_v1" value="220" min="0" oninput="u5()"></div>
+<div class="input-col"><label>역률[%]</label><input type="number" inputmode="decimal" id="p5_pf1" value="100" min="0" max="100" oninput="u5()"></div>
+</div>
+<div class="result-row">
+<div class="result-label">월 전력량[kWh]</div>
+<div class="result-value" id="p5_r1">-</div>
+</div>
+</div>
+<div class="formula">
+<div class="fml-label">○ 단상 전력량[kWh] =</div>
+<div class="fml-frac-row">
+<span class="frac">
+<span class="num">전압[V] × 부하[A] × (역률/100) × 24h × 365일</span>
+<span class="den">12개월 × 1,000</span>
+</span>
+</div>
+</div>
+</div>
+<div id="p5-3p" style="display:none">
+<div class="calc-block">
+<div class="input-row">
+<div class="input-col"><label>R상[A]</label><input type="number" inputmode="decimal" id="p5_r" placeholder="입력" min="0" oninput="u5()"></div>
+<div class="input-col"><label>S상[A]</label><input type="number" inputmode="decimal" id="p5_s" placeholder="입력" min="0" oninput="u5()"></div>
+<div class="input-col"><label>T상[A]</label><input type="number" inputmode="decimal" id="p5_t" placeholder="입력" min="0" oninput="u5()"></div>
+<div class="input-col"><label>전압[V]</label><input type="number" inputmode="decimal" id="p5_v3" value="380" min="0" oninput="u5()"></div>
+<div class="input-col"><label>역률[%]</label><input type="number" inputmode="decimal" id="p5_pf3" value="100" min="0" max="100" oninput="u5()"></div>
+</div>
+<div class="result-row">
+<div class="result-label">월 전력량[kWh]</div>
+<div class="result-value" id="p5_r3">-</div>
+</div>
+</div>
+<div class="formula">
+<div class="fml-label">○ 3상 전력량[kWh] =</div>
+<div class="fml-frac-row">
+<span class="frac">
+<span class="num">√3 × 전압[V] × {(R+S+T)/3} × (역률/100) × 24h × 365일</span>
+<span class="den">12개월 × 1,000</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>`;
+
+pages.p2=`<div id="calc-wrapper"><div class="container">
+<div class="card" id="card-p2">
+<div class="card-header"><h2>① 차단기 부하율</h2><button class="btn-reset" onclick="resetCard('card-p2','u2')">초기화</button></div>
+<div class="card-body">
+<div class="seg-group">
+<button class="seg-btn active" onclick="p2SetPhase('1',this)">단상</button>
+<button class="seg-btn" onclick="p2SetPhase('3',this)">3상</button>
+</div>
+<div id="p2-1p">
+<div class="calc-block">
+<div class="input-row">
+<div class="input-col"><label>부하[A]</label><input type="number" inputmode="decimal" id="p2_i1" placeholder="입력" min="0" oninput="u2()"></div>
+<div class="input-col"><label>차단기 용량[A]</label><input type="number" inputmode="decimal" id="p2_cb1" placeholder="입력" min="0" oninput="u2()"></div>
+</div>
+<div class="result-row">
+<div class="result-label">부하율[%]</div>
+<div class="result-value" id="p2_r1">-</div>
+</div>
+</div>
+<div class="formula">
+<div class="fml-label">○ 부하율[%] =</div>
+<div class="fml-frac-row">
+<span class="frac"><span class="num">부하[A]</span><span class="den">차단기 용량[A]</span></span>
+&nbsp;× 100
+</div>
+</div>
+</div>
+<div id="p2-3p" style="display:none">
+<div class="calc-block">
+<div class="input-row">
+<div class="input-col"><label>R상[A]</label><input type="number" inputmode="decimal" id="p2_r" placeholder="입력" min="0" oninput="u2()"></div>
+<div class="input-col"><label>S상[A]</label><input type="number" inputmode="decimal" id="p2_s" placeholder="입력" min="0" oninput="u2()"></div>
+<div class="input-col"><label>T상[A]</label><input type="number" inputmode="decimal" id="p2_t" placeholder="입력" min="0" oninput="u2()"></div>
+<div class="input-col"><label>차단기 용량[A]</label><input type="number" inputmode="decimal" id="p2_cb3" placeholder="입력" min="0" oninput="u2()"></div>
+</div>
+<div class="result-row">
+<div class="result-label">부하율[%]</div>
+<div class="result-value" id="p2_r3">-</div>
+</div>
+</div>
+<div class="formula">
+<div class="fml-label">○ 부하율[%] =</div>
+<div class="fml-frac-row">
+<span class="frac">
+<span class="num">최대값(R, S, T)</span>
+<span class="den">차단기 용량[A]</span>
+</span>
+&nbsp;× 100
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>`;
+
+let p2Phase='1';
+function initP2(){p2Phase='1';}
+function p2SetPhase(ph,btn){
+  p2Phase=ph;
+  document.querySelectorAll('#p2-1p,#p2-3p').forEach(el=>el.style.display='none');
+  document.getElementById('p2-'+ph+'p').style.display='';
+  btn.closest('.seg-group').querySelectorAll('.seg-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');u2();initShrinkAll();
+}
+
+pages.p6=`<div id="calc-wrapper"><div class="container">
+<div class="card" id="card-p6">
+<div class="card-header"><h2>① 발전차 용량</h2><button class="btn-reset" onclick="resetCard('card-p6','u6')">초기화</button></div>
+<div class="card-body">
+<div class="seg-group">
+<button class="seg-btn active" onclick="p6SetPhase('1',this)">단상</button>
+<button class="seg-btn" onclick="p6SetPhase('3',this)">3상</button>
+</div>
+<div id="p6-1p">
+<div class="calc-block">
+<div class="input-row">
+<div class="input-col"><label>부하[A]</label><input type="number" inputmode="decimal" id="p6_i1" placeholder="입력" min="0" oninput="u6()"></div>
+<div class="input-col"><label>전압[V]</label><input type="number" inputmode="decimal" id="p6_v1" value="220" min="0" oninput="u6()"></div>
+<div class="input-col"><label>효율 역수</label><input type="number" inputmode="decimal" id="p6_pf1" value="1.25" min="0" oninput="u6()"></div>
+</div>
+<div class="result-row">
+<div class="result-label p6-lbl">산출 용량[kW]</div>
+<div class="result-value" id="p6_r1">-</div>
+</div>
+</div>
+<div class="formula">
+<div class="fml-label">○ 단상 산출 용량[kW] =</div>
+<div class="fml-frac-row">
+<span class="frac">
+<span class="num">전압[V] × 부하[A] × 효율 역수(1.25배)</span>
+<span class="den">1,000</span>
+</span>
+</div>
+<div class="fml-label" style="margin-top:8px">○ 발전차 용량</div>
+<div class="fml-label fml-nowrap" style="margin-top:4px">50kWㆍ65kWㆍ100kWㆍ200kWㆍ300kW</div>
+<div class="fml-label fml-nowrap" style="margin-top:6px">※ 발전기 노후 및 안전 등을 고려하여 현장 적용</div>
+</div>
+</div>
+<div id="p6-3p" style="display:none">
+<div class="calc-block">
+<div class="input-row">
+<div class="input-col"><label>R상[A]</label><input type="number" inputmode="decimal" id="p6_r" placeholder="입력" min="0" oninput="u6()"></div>
+<div class="input-col"><label>S상[A]</label><input type="number" inputmode="decimal" id="p6_s" placeholder="입력" min="0" oninput="u6()"></div>
+<div class="input-col"><label>T상[A]</label><input type="number" inputmode="decimal" id="p6_t" placeholder="입력" min="0" oninput="u6()"></div>
+</div>
+<div class="input-row" style="margin-top:6px">
+<div class="input-col"><label>전압[V]</label><input type="number" inputmode="decimal" id="p6_v3" value="380" min="0" oninput="u6()"></div>
+<div class="input-col"><label>효율 역수</label><input type="number" inputmode="decimal" id="p6_pf3" value="1.25" min="0" oninput="u6()"></div>
+</div>
+<div class="result-row">
+<div class="result-label p6-lbl">산출 용량[kW]</div>
+<div class="result-value" id="p6_r3">-</div>
+</div>
+</div>
+<div class="formula">
+<div class="fml-label">○ 3상 산출 용량[kW] =</div>
+<div class="fml-frac-row">
+<span class="frac">
+<span class="num">√3 × 전압[V] × 최대값(R, S, T) × 효율 역수(1.25배)</span>
+<span class="den">1,000</span>
+</span>
+</div>
+<div class="fml-label" style="margin-top:8px">○ 발전차 용량</div>
+<div class="fml-label fml-nowrap" style="margin-top:4px">50kWㆍ65kWㆍ100kWㆍ200kWㆍ300kW</div>
+<div class="fml-label fml-nowrap" style="margin-top:6px">※ 발전기 노후 및 안전 등을 고려하여 현장 적용</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>`;
+
+let p6Phase='1';
+function initP6(){p6Phase='1';}
+function p6SetPhase(ph,btn){
+  p6Phase=ph;
+  document.querySelectorAll('#p6-1p,#p6-3p').forEach(el=>el.style.display='none');
+  document.getElementById('p6-'+ph+'p').style.display='';
+  btn.closest('.seg-group').querySelectorAll('.seg-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');u6();initShrinkAll();
+}
+
+pages.p7=`<div id="calc-wrapper"><div class="container">
+<div class="card" id="card-p7">
+<div class="card-header"><h2>① 냉방 용량 산출</h2><button class="btn-reset" onclick="resetCard('card-p7','u7')">초기화</button></div>
+<div class="card-body">
+<div class="calc-block">
+<div class="input-row">
+<div class="input-col"><label>R상[A]</label><input type="number" inputmode="decimal" id="p7_r" placeholder="입력" min="0" oninput="u7()"></div>
+<div class="input-col"><label>S상[A]</label><input type="number" inputmode="decimal" id="p7_s" placeholder="입력" min="0" oninput="u7()"></div>
+<div class="input-col"><label>T상[A]</label><input type="number" inputmode="decimal" id="p7_t" placeholder="입력" min="0" oninput="u7()"></div>
+</div>
+<div class="input-row" style="margin-top:6px">
+<div class="input-col"><label>전압[V]</label><input type="number" inputmode="decimal" id="p7_v" value="380" min="0" oninput="u7()"></div>
+<div class="input-col"><label>역률[%]</label><input type="number" inputmode="decimal" id="p7_pf" value="100" min="0" max="100" oninput="u7()"></div>
+<div class="input-col"><label>면적[m²]</label><input type="number" inputmode="decimal" id="p7_area" placeholder="입력" min="0" oninput="u7()"></div>
+</div>
+<div class="result-row" style="margin-top:6px">
+<div class="result-label p7-lbl">소비전력[kW]</div>
+<div class="result-value" id="p7_kw">-</div>
+</div>
+<div class="result-row" style="margin-top:4px">
+<div class="result-label p7-lbl">냉방 총 부하량[kcal/h]</div>
+<div class="result-value" id="p7_total">-</div>
+</div>
+<div class="result-row" style="margin-top:4px">
+<div class="result-label p7-lbl">냉방기 소요 대수[RT]</div>
+<div class="result-value" id="p7_rt">-</div>
+</div>
+</div>
+<div class="formula">
+<div class="fml-label">○ 냉방기 용량은 해당 국소 종국 용량을 고려하여 산정</div>
+<div class="fml-label" style="margin-top:8px">○ 냉방 용량 산출</div>
+<div class="fml-label" style="margin-top:8px;padding-left:6px">1) 소비전력[kW] =</div>
+<div class="fml-frac-row" style="padding-left:6px;margin-top:4px">
+<span class="frac">
+<span class="num">√3 × 전압[V] × 최대값(R, S, T) × (역률/100)</span>
+<span class="den">1,000</span>
+</span>
+</div>
+<div class="fml-label" style="margin-top:10px;padding-left:6px">2) 냉방 총 부하량[kcal/h] =</div>
+<div class="fml-frac-row" style="padding-left:6px;margin-top:4px;flex-wrap:wrap">
+<span style="font-size:0.82rem;line-height:2">{ 소비전력[kW] × 발생열량 860kcal/kWh + 총 실내 부하열량 면적[m²] × 130kcal/h/m² } × 안전율 1.2</span>
+</div>
+<div class="fml-label" style="margin-top:10px;padding-left:6px">3) 냉방기 소요 대수[RT] =</div>
+<div class="fml-frac-row" style="padding-left:6px;margin-top:4px">
+<span class="frac">
+<span class="num">냉방 총 부하량[kcal/h]</span>
+<span class="den">2,500kcal/h</span>
+</span>
+</div>
+<div class="fml-label" style="margin-top:6px">○ 1RT = 2,500kcal/h</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>`;
+
+function u3(){
+  const c1=v('c2v'),l1=v('ld2v'),m1=l1>0?((c1*1.5)/(l1*3.55))*60:0;
+  const sm1=m1>0?fmtNum(m1,3):'-',sh1=m1>0?fmtNum(m1/60,3):'-';
+  set('m2v',sm1);set('h2v',sh1);
+  const c2=v('c12va'),l2=v('ld12va'),m2=l2>0?((c2*1.5)/(l2*4.36))*60:0;
+  const sm2=m2>0?fmtNum(m2,3):'-',sh2=m2>0?fmtNum(m2/60,3):'-';
+  set('m12va',sm2);set('h12va',sh2);
+  const c3=v('c12vb'),l3=v('ld12vb'),m3=l3>0?((c3*1.5)/(l3*5.55))*60:0;
+  const sm3=m3>0?fmtNum(m3,3):'-',sh3=m3>0?fmtNum(m3/60,3):'-';
+  set('m12vb',sm3);set('h12vb',sh3);
+}
+function u4(){
+  const r=v('rp'),s=v('sp'),t=v('tp');
+  const rpEl=document.getElementById('rp'),spEl=document.getElementById('sp'),tpEl=document.getElementById('tp');
+  const allInput=rpEl&&rpEl.value!==''&&spEl&&spEl.value!==''&&tpEl&&tpEl.value!=='';
+  const apEl=document.getElementById('ap'),upEl=document.getElementById('up');
+  if(!allInput){
+    if(apEl){apEl.textContent='-';apEl.style.color='';autoShrinkEl(apEl);}
+    if(upEl){upEl.textContent='-';upEl.className='result-value';upEl.style.color='';autoShrinkEl(upEl);}
+    return;
+  }
+  const avg=(r+s+t)/3,max=Math.max(r,s,t),min=Math.min(r,s,t);
+  set('ap',avg>0?fmtNum(avg,2):'-');
+  const unb=avg>0?(((max-min)/avg)*100):0;
+  if(upEl){const su=avg>0?fmtNum(unb,2):'-';upEl.textContent=su;upEl.className='result-value';upEl.style.color=avg>0?(unb>30?'var(--red)':'#10b981'):'';autoShrinkEl(upEl);}
+}
+let p5Phase='1';
+let p5bPhase='1';
+function initP5(){p5Phase='1';p5bPhase='1';}
+function p5SetPhase(ph,btn){
+  p5Phase=ph;
+  document.querySelectorAll('#p5-1p,#p5-3p').forEach(el=>el.style.display='none');
+  document.getElementById('p5-'+ph+'p').style.display='';
+  btn.closest('.seg-group').querySelectorAll('.seg-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');u5();initShrinkAll();
+}
+function u5(){
+  const l1=v('p5_l1'),v1=v('p5_v1'),pf1=vPf('p5_pf1');
+  const el1=document.getElementById('p5_r1');
+  if(el1){const r1=l1>0&&v1>0?v1*l1*pf1*24*365/12/1000:0;const s1=r1?fmtNum(r1,1):'-';el1.textContent=s1;autoShrinkEl(el1);}
+  const r=v('p5_r'),s=v('p5_s'),t=v('p5_t'),v3=v('p5_v3'),pf3=vPf('p5_pf3');
+  const avgI=(r+s+t)/3;
+  const el3=document.getElementById('p5_r3');
+  if(el3){const r3=avgI>0&&v3>0?1.732*v3*avgI*pf3*24*365/12/1000:0;const s3=r3?fmtNum(r3,1):'-';el3.textContent=s3;autoShrinkEl(el3);}
+}
+
+function p5bSetPhase(ph,btn){
+  p5bPhase=ph;
+  document.querySelectorAll('#p5b-1p,#p5b-3p').forEach(el=>el.style.display='none');
+  document.getElementById('p5b-'+ph+'p').style.display='';
+  btn.closest('.seg-group').querySelectorAll('.seg-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');u5b();initShrinkAll();
+}
+
+function u5b(){
+  const l1=v('p5b_l1'),v1=v('p5b_v1'),pf1=vPf('p5b_pf1');
+  const el1=document.getElementById('p5b_r1');
+  if(el1){const r1=l1>0&&v1>0?v1*l1*pf1*720/1000:0;const s1=r1?fmtNum(r1,1):'-';el1.textContent=s1;autoShrinkEl(el1);}
+  const r=v('p5b_r'),s=v('p5b_s'),t=v('p5b_t'),v3=v('p5b_v3'),pf3=vPf('p5b_pf3');
+  const avgI=(r+s+t)/3;
+  const el3=document.getElementById('p5b_r3');
+  if(el3){const r3=avgI>0&&v3>0?1.732*v3*avgI*pf3*720/1000:0;const s3=r3?fmtNum(r3,1):'-';el3.textContent=s3;autoShrinkEl(el3);}
+}
+function u2(){
+  if(p2Phase==='1'){
+    const i=v('p2_i1'),cb=v('p2_cb1'),el=document.getElementById('p2_r1');
+    if(i>0&&cb>0&&el){const pct=i/cb*100;const sp=fmtNum(pct,1);el.textContent=sp;el.className='result-value'+(pct>70?'':' result-ok');autoShrinkEl(el);}
+    else if(el){el.textContent='-';el.className='result-value';autoShrinkEl(el);}
+  } else {
+    const r=v('p2_r'),s=v('p2_s'),t=v('p2_t'),cb=v('p2_cb3'),el=document.getElementById('p2_r3');
+    if(Math.max(r,s,t)>0&&cb>0&&el){const pct=Math.max(r,s,t)/cb*100;const sp=fmtNum(pct,1);el.textContent=sp;el.className='result-value'+(pct>70?'':' result-ok');autoShrinkEl(el);}
+    else if(el){el.textContent='-';el.className='result-value';autoShrinkEl(el);}
+  }
+}
+
+function u6(){
+  if(p6Phase==='1'){
+    const i=v('p6_i1'),vv=v('p6_v1'),eff=v('p6_pf1');
+    const el=document.getElementById('p6_r1');
+    if(i>0&&vv>0&&el){const kw=vv*i*eff/1000;el.textContent=fmtNum(kw,3);autoShrinkEl(el);}
+    else if(el){el.textContent='-';autoShrinkEl(el);}
+  } else {
+    const r=v('p6_r'),s=v('p6_s'),t=v('p6_t'),vv=v('p6_v3'),eff=v('p6_pf3');
+    const el=document.getElementById('p6_r3');
+    const maxI=Math.max(r,s,t);
+    if(maxI>0&&vv>0&&el){const kw=1.732*vv*maxI*eff/1000;el.textContent=fmtNum(kw,3);autoShrinkEl(el);}
+    else if(el){el.textContent='-';autoShrinkEl(el);}
+  }
+}
+
+function u7(){
+  const r=v('p7_r'),s=v('p7_s'),t=v('p7_t'),vv=v('p7_v'),pf=vPf('p7_pf'),area=v('p7_area');
+  const kwEl=document.getElementById('p7_kw'),totalEl=document.getElementById('p7_total'),rtEl=document.getElementById('p7_rt');
+  const maxI=Math.max(r,s,t);
+  const kw=(maxI>0&&vv>0)?1.732*vv*maxI*pf/1000:0;
+  if(kw>0||area>0){
+    if(kwEl){kwEl.textContent=kw>0?fmtNum(kw,3):'-';autoShrinkEl(kwEl);}
+    const total=(kw*860+area*130)*1.2;
+    const rt=total/2500;
+    if(totalEl){totalEl.textContent=fmtNum(total,0);autoShrinkEl(totalEl);}
+    if(rtEl){rtEl.textContent=fmtNum(rt,2);autoShrinkEl(rtEl);}
+  } else {
+    if(kwEl){kwEl.textContent='-';autoShrinkEl(kwEl);}
+    if(totalEl){totalEl.textContent='-';autoShrinkEl(totalEl);}
+    if(rtEl){rtEl.textContent='-';autoShrinkEl(rtEl);}
+  }
+}
+
+const P8_CATS_DATA = {
+  '길이': { units: [
+    {k:'mm', l:'mm (밀리미터)', f:0.001},
+    {k:'cm', l:'cm (센티미터)', f:0.01},
+    {k:'m',  l:'m  (미터)',     f:1},
+    {k:'km', l:'km (킬로미터)', f:1000},
+    {k:'in', l:'in (인치)',     f:0.0254},
+    {k:'ft', l:'ft (피트)',     f:0.3048},
+    {k:'yd', l:'yd (야드)',     f:0.9144},
+    {k:'mi', l:'mi (마일)',     f:1609.344},
+  ]},
+  '무게': { units: [
+    {k:'mg', l:'mg (밀리그램)', f:1e-6},
+    {k:'g',  l:'g  (그램)',     f:0.001},
+    {k:'kg', l:'kg (킬로그램)', f:1},
+    {k:'t',  l:'t  (톤)',       f:1000},
+    {k:'lb', l:'lb (파운드)',   f:0.453592},
+    {k:'oz', l:'oz (온스)',     f:0.0283495},
+  ]},
+  '부피': { units: [
+    {k:'ml',  l:'mL  (밀리리터)',    f:0.001},
+    {k:'l',   l:'L   (리터)',        f:1},
+    {k:'m3',  l:'m³  (세제곱미터)', f:1000},
+    {k:'cc',  l:'cc  (시시=mL)',     f:0.001},
+    {k:'gal', l:'gal (갤런 US)',     f:3.78541},
+    {k:'ft3', l:'ft³ (세제곱피트)', f:28.3168},
+  ]},
+  '면적': { units: [
+    {k:'mm2',    l:'mm²  (제곱밀리미터)',  f:1e-6},
+    {k:'cm2',    l:'cm²  (제곱센티미터)', f:0.0001},
+    {k:'m2',     l:'m²   (제곱미터)',     f:1},
+    {k:'km2',    l:'km²  (제곱킬로미터)', f:1e6},
+    {k:'pyeong', l:'평   (坪)',           f:3.30579},
+    {k:'ha',     l:'ha   (헥타르)',       f:10000},
+    {k:'ft2',    l:'ft²  (제곱피트)',     f:0.092903},
+    {k:'ac',     l:'acre (에이커)',       f:4046.86},
+  ]},
+  '압력': { units: [
+    {k:'pa',    l:'Pa      (파스칼)',       f:1},
+    {k:'kpa',   l:'kPa     (킬로파스칼)', f:1000},
+    {k:'mpa',   l:'MPa     (메가파스칼)', f:1e6},
+    {k:'bar',   l:'bar     (바)',          f:100000},
+    {k:'kgcm2', l:'kgf/cm² (공학기압)',   f:98066.5},
+    {k:'psi',   l:'psi',                  f:6894.76},
+    {k:'mmhg',  l:'mmHg    (수은주)',      f:133.322},
+    {k:'atm',   l:'atm     (표준대기압)', f:101325},
+  ]},
+  '에너지': { units: [
+    {k:'j',    l:'J    (줄)',            f:1},
+    {k:'kj',   l:'kJ   (킬로줄)',       f:1000},
+    {k:'kwh',  l:'kWh  (킬로와트시)',   f:3600000},
+    {k:'mwh',  l:'MWh  (메가와트시)',   f:3.6e9},
+    {k:'cal',  l:'cal  (칼로리)',       f:4.184},
+    {k:'kcal', l:'kcal (킬로칼로리)',   f:4184},
+    {k:'btu',  l:'BTU  (영국열단위)',   f:1055.06},
+  ]},
+};
+
+const P8_CAT_ORDER = ['전기','길이','무게','부피','면적','온도','압력','에너지'];
+const P8_CAT_ICON  = {};
+let p8Cat = '전기';
+
+pages.p8 = `<div id="calc-wrapper"><div class="container">
+<div class="card" id="card-p8">
+<div class="card-header"><h2>단위 변환</h2></div>
+<div class="card-body">
+<div id="p8-tabs" style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:14px"></div>
+<div id="p8-main" style="margin: 0 -16px -16px;"></div>
+</div>
+</div>
+</div></div>`;
+
+function initP8() {
+  p8Cat = '전기';
+  const el = document.getElementById('p8-tabs');
+  if (!el) return;
+  el.innerHTML = P8_CAT_ORDER.map((cat, i) =>
+    `<button class="seg-btn${i===0?' active':''}" style="flex:1 1 calc(25% - 4px);min-width:0;font-size:0.78rem;padding:10px 2px;text-align:center" onclick="p8SetCat('${cat}',this)">${cat}</button>`
+  ).join('');
+  p8RenderCat('전기');
+}
+
+// Custom button+list dropdown, backed by a hidden <select> so existing code
+// reading selectEl.value keeps working.
+function p8DdHTML(id, items, selectedValue, onChangeCall) {
+  const opts = items.map(it =>
+    `<option value="${it.k}"${it.k === selectedValue ? ' selected' : ''}>${it.l}</option>`
+  ).join('');
+  const selectedItem = items.find(it => it.k === selectedValue) || items[0];
+  const list = items.map(it =>
+    `<div class="p8-dd-opt${it.k === selectedValue ? ' active' : ''}" data-value="${it.k}" onclick="p8DdChoose('${id}','${it.k}',function(){${onChangeCall}})">${it.l}</div>`
+  ).join('');
+  return `<div class="p8-dd" data-dd-id="${id}">
+    <select id="${id}" class="p8-sel" hidden>${opts}</select>
+    <button type="button" class="p8-dd-btn" id="${id}-btn" onclick="p8DdToggle('${id}')">
+      <span id="${id}-label">${selectedItem ? selectedItem.l : ''}</span>
+      <svg class="p8-dd-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 4.5l3 3 3-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <div class="p8-dd-list" id="${id}-list" hidden>${list}</div>
+  </div>`;
+}
+
+// Scroll the open dropdown list with the mouse wheel instead of the page
+// behind it.
+window.addEventListener('wheel', function(e) {
+  const list = e.target.closest && e.target.closest('.p8-dd-list');
+  if (list && !list.hidden) {
+    e.preventDefault();
+    e.stopPropagation();
+    list.scrollTop += e.deltaY;
+  }
+}, { passive: false, capture: true });
+
+function p8DdToggle(id) {
+  document.querySelectorAll('.p8-dd-list').forEach(function(l) { if (l.id !== id + '-list') l.hidden = true; });
+  document.querySelectorAll('.p8-dd-btn').forEach(function(b) { if (b.id !== id + '-btn') b.classList.remove('open'); });
+  const list = document.getElementById(id + '-list');
+  const btn = document.getElementById(id + '-btn');
+  if (!list) return;
+  list.hidden = !list.hidden;
+  if (btn) btn.classList.toggle('open', !list.hidden);
+}
+
+function p8DdClose(id) {
+  const list = document.getElementById(id + '-list');
+  const btn = document.getElementById(id + '-btn');
+  if (list) list.hidden = true;
+  if (btn) btn.classList.remove('open');
+}
+
+function p8DdChoose(id, value, cb) {
+  const sel = document.getElementById(id);
+  if (sel) sel.value = value;
+  const label = document.getElementById(id + '-label');
+  const opt = sel && sel.querySelector('option[value="' + value + '"]');
+  if (label && opt) label.textContent = opt.textContent;
+  document.querySelectorAll('#' + id + '-list .p8-dd-opt').forEach(function(o) {
+    o.classList.toggle('active', o.dataset.value === value);
+  });
+  p8DdClose(id);
+  if (typeof cb === 'function') cb();
+}
+
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('.p8-dd')) {
+    document.querySelectorAll('.p8-dd-list').forEach(function(l) { l.hidden = true; });
+    document.querySelectorAll('.p8-dd-btn').forEach(function(b) { b.classList.remove('open'); });
+  }
+});
+
+function p8SetCat(cat, btn) {
+  p8Cat = cat;
+  document.querySelectorAll('#p8-tabs .seg-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  p8RenderCat(cat);
+}
+
+function p8Reset() { if(p8Cat==='전기') p8PhaseMode='1'; p8RenderCat(p8Cat); }
+
+function p8Fmt(n) {
+  if (!isFinite(n) || isNaN(n)) return '-';
+  if (n === 0) return '0';
+  const abs = Math.abs(n);
+  if (abs < 1e-9 || abs >= 1e15) return n.toExponential(4);
+  if (abs < 0.0001) return n.toExponential(4);
+  if (abs < 1) { const s = parseFloat(n.toPrecision(5)).toString(); return s; }
+  const mag = Math.floor(Math.log10(abs));
+  const dec = Math.max(0, Math.min(6, 5 - mag));
+  const s = fmtNum(n, dec);
+  return s.includes('.') ? s.replace(/\.?0+$/, '') : s;
+}
+
+const _P8_SH  = `font-size:1rem;font-weight:700;color:var(--text-primary);margin:18px 0 10px;display:block;`;
+
+function p8RenderCat(cat) {
+  const el = document.getElementById('p8-main');
+  if (!el) return;
+  if (cat === '전기')  { p8PhaseMode = '1'; el.innerHTML = p8ElecHTML(); }
+  else if (cat === '온도') el.innerHTML = p8TempHTML();
+  else { el.innerHTML = p8StdHTML(cat); p8CalcStd(cat); }
+  initShrinkAll();
+}
+
+function p8StdHTML(cat) {
+  const data = P8_CATS_DATA[cat]; if (!data) return '';
+  const dd = p8DdHTML('p8-sel', data.units.map(u => ({ k: u.k, l: u.l.trim() })), data.units[0].k, `p8CalcStd('${cat}')`);
+  const rows = data.units.map(u =>
+    `<div class="result-row" style="margin-top:4px"><div class="result-label p8-lw">${u.l}</div><div class="result-value" id="p8r_${u.k}" style="font-size:0.95rem">-</div></div>`
+  ).join('');
+  return `<div class="card" id="card-p8-std">
+    <div class="card-header"><h2>① ${cat} 변환</h2><button class="btn-reset" onclick="p8Reset()">초기화</button></div>
+    <div class="card-body">
+      <div class="calc-block">
+        <div class="input-row" style="margin-bottom:8px">
+          <div class="input-col" style="flex:3"><label>입력값</label><input type="number" inputmode="decimal" id="p8-val" placeholder="값 입력" oninput="p8CalcStd('${cat}')"></div>
+          <div class="input-col" style="flex:2"><label>단위</label>${dd}</div>
+        </div>${rows}
+      </div>
+    </div>
+  </div>`;
+}
+
+function p8CalcStd(cat) {
+  const data = P8_CATS_DATA[cat]; if (!data) return;
+  const valEl = document.getElementById('p8-val');
+  const selEl = document.getElementById('p8-sel');
+  if (!valEl || !selEl) return;
+  const valStr = valEl.value;
+  const fromKey = selEl.value;
+  const fromUnit = data.units.find(u => u.k === fromKey);
+  if (!fromUnit) return;
+  const empty = (valStr === '' || valStr === null || isNaN(parseFloat(valStr)));
+  data.units.forEach(u => {
+    const el = document.getElementById('p8r_' + u.k); if (!el) return;
+    if (empty) { el.textContent = '-'; el.style.color = ''; autoShrinkEl(el); return; }
+    const val = parseFloat(valStr);
+    const res = (val * fromUnit.f) / u.f;
+    el.textContent = p8Fmt(res);
+    el.style.color = (u.k === fromKey) ? 'var(--text-secondary)' : '';
+    autoShrinkEl(el);
+  });
+}
+
+function p8TempHTML() {
+  return `<div class="card" id="card-p8-temp">
+    <div class="card-header"><h2>① 온도 변환</h2><button class="btn-reset" onclick="p8Reset()">초기화</button></div>
+    <div class="card-body">
+      <div class="calc-block">
+        <div class="input-row" style="margin-bottom:8px">
+          <div class="input-col" style="flex:3"><label>입력값</label><input type="number" inputmode="decimal" id="p8t-val" placeholder="값 입력" oninput="p8CalcTemp()"></div>
+          <div class="input-col" style="flex:2"><label>단위</label>
+            ${p8DdHTML('p8t-sel', [{k:'c',l:'°C (섭씨)'},{k:'f',l:'°F (화씨)'},{k:'k',l:'K  (켈빈)'}], 'c', 'p8CalcTemp()')}
+          </div>
+        </div>
+        <div class="result-row" style="margin-top:4px"><div class="result-label p8-lw">°C (섭씨)</div><div class="result-value" id="p8t-c">-</div></div>
+        <div class="result-row" style="margin-top:4px"><div class="result-label p8-lw">°F (화씨)</div><div class="result-value" id="p8t-f">-</div></div>
+        <div class="result-row" style="margin-top:4px"><div class="result-label p8-lw">K  (켈빈)</div><div class="result-value" id="p8t-k">-</div></div>
+        <div class="formula" style="margin-top:12px">
+          <div class="fml-label">○ °F = °C × 9/5 + 32</div>
+          <div class="fml-label">○ K  = °C + 273.15</div>
+        </div>
+      </div>
+    </div>
+  </div>`;
+}
+
+function p8CalcTemp() {
+  const valStr = document.getElementById('p8t-val')?.value;
+  const from   = document.getElementById('p8t-sel')?.value;
+  const ids = ['c','f','k'];
+  const empty = (!valStr || isNaN(parseFloat(valStr)));
+  if (empty) { ids.forEach(id=>{const e=document.getElementById('p8t-'+id);if(e){e.textContent='-';e.style.color='';autoShrinkEl(e);}}); return; }
+  const val = parseFloat(valStr);
+  let c = (from==='c') ? val : (from==='f') ? (val-32)*5/9 : val-273.15;
+  const res = {c, f:c*9/5+32, k:c+273.15};
+  ids.forEach(id => {
+    const e = document.getElementById('p8t-'+id); if (!e) return;
+    e.textContent = p8Fmt(res[id]);
+    e.style.color = (id===from) ? 'var(--text-secondary)' : '';
+    autoShrinkEl(e);
+  });
+}
+
+let p8PhaseMode = '1';
+
+function p8ElecHTML() {
+  return `
+    <div class="card" id="card-p8-wh">
+      <div class="card-header"><h2>① 전력량 변환</h2><button class="btn-reset" onclick="p8ResetWh()">초기화</button></div>
+      <div class="card-body">
+        <div class="calc-block">
+          <div class="input-row" style="margin-bottom:8px">
+            <div class="input-col" style="flex:3"><label>입력값</label><input type="number" inputmode="decimal" id="p8w-val" placeholder="값 입력" min="0" oninput="p8CalcWh()"></div>
+            <div class="input-col" style="flex:2"><label>단위</label>
+              ${p8DdHTML('p8w-sel', [{k:'wh',l:'Wh (와트시)'},{k:'kwh',l:'kWh (킬로와트시)'},{k:'mwh',l:'MWh (메가와트시)'},{k:'gwh',l:'GWh (기가와트시)'}], 'kwh', 'p8CalcWh()')}
+            </div>
+          </div>
+          <div class="result-row" style="margin-top:4px"><div class="result-label p8-whlw">Wh (와트시)</div><div class="result-value" id="p8w-wh">-</div></div>
+          <div class="result-row" style="margin-top:4px"><div class="result-label p8-whlw">kWh (킬로와트시)</div><div class="result-value" id="p8w-kwh">-</div></div>
+          <div class="result-row" style="margin-top:4px"><div class="result-label p8-whlw">MWh (메가와트시)</div><div class="result-value" id="p8w-mwh">-</div></div>
+          <div class="result-row" style="margin-top:4px"><div class="result-label p8-whlw">GWh (기가와트시)</div><div class="result-value" id="p8w-gwh">-</div></div>
+          <div class="formula" style="margin-top:8px">
+            <div class="fml-label fml-nowrap">○ 1kWh = 1,000Wh</div>
+            <div class="fml-label fml-nowrap" style="margin-top:4px">○ 1MWh = 1,000kWh</div>
+            <div class="fml-label fml-nowrap" style="margin-top:4px">○ 1GWh = 1,000MWh</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="card-p8-elec">
+      <div class="card-header"><h2>② 전력 단위 변환 (kW · kVA · HP)</h2><button class="btn-reset" onclick="p8ResetElec()">초기화</button></div>
+      <div class="card-body">
+        <div class="calc-block">
+          <div class="input-row">
+            <div class="input-col" style="flex:3"><label>입력값</label><input type="number" inputmode="decimal" id="p8e-val" placeholder="입력" min="0" oninput="p8CalcElec()"></div>
+            <div class="input-col" style="flex:3"><label>입력 단위</label>
+              ${p8DdHTML('p8e-sel', [{k:'kw',l:'kW (유효전력)'},{k:'kva',l:'kVA (피상전력)'},{k:'hp',l:'HP (마력)'}], 'kw', 'p8CalcElec()')}
+            </div>
+            <div class="input-col" style="flex:2"><label>역률[%]</label><input type="number" inputmode="decimal" id="p8e-pf" value="100" min="1" max="100" oninput="p8CalcElec()"></div>
+          </div>
+          <div class="result-row" style="margin-top:6px"><div class="result-label p8-elw">유효전력[kW]</div><div class="result-value" id="p8e-kw">-</div></div>
+          <div class="result-row" style="margin-top:4px"><div class="result-label p8-elw">피상전력[kVA]</div><div class="result-value" id="p8e-kva">-</div></div>
+          <div class="result-row" style="margin-top:4px"><div class="result-label p8-elw">마력[HP]</div><div class="result-value" id="p8e-hp">-</div></div>
+          <div class="formula" style="margin-top:8px">
+            <div class="fml-label fml-nowrap">○ 유효전력[kW] = kVA × 역률</div>
+            <div class="fml-label fml-nowrap" style="margin-top:4px">○ 피상전력[kVA] = kW ÷ 역률</div>
+            <div class="fml-label fml-nowrap" style="margin-top:4px">○ 마력[HP] : 1HP = 0.7457kW</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="card-p8-phase">
+      <div class="card-header"><h2>③ 전력 산출</h2><button class="btn-reset" onclick="p8ResetPhase()">초기화</button></div>
+      <div class="card-body">
+        <div class="calc-block">
+          <div class="seg-group" style="margin-bottom:10px">
+            <button class="seg-btn active" onclick="p8SetPhase('1',this)">단상 (220V)</button>
+            <button class="seg-btn" onclick="p8SetPhase('3',this)">3상 (380V)</button>
+          </div>
+          <div class="input-row">
+            <div class="input-col"><label>전류[A]</label><input type="number" inputmode="decimal" id="p8ph-a" placeholder="입력" min="0" oninput="p8CalcPhase()"></div>
+            <div class="input-col"><label>전압[V]</label><input type="number" inputmode="decimal" id="p8ph-v" value="220" min="0" oninput="p8CalcPhase()"></div>
+            <div class="input-col"><label>역률[%]</label><input type="number" inputmode="decimal" id="p8ph-pf" value="100" min="1" max="100" oninput="p8CalcPhase()"></div>
+          </div>
+          <div class="result-row" style="margin-top:6px"><div class="result-label p8-elw">유효전력[kW]</div><div class="result-value" id="p8ph-kw">-</div></div>
+          <div class="result-row" style="margin-top:4px"><div class="result-label p8-elw">피상전력[kVA]</div><div class="result-value" id="p8ph-kva">-</div></div>
+          <div class="formula" style="margin-top:8px">
+            <div class="fml-label fml-nowrap" id="p8ph-fml">○ 유효전력[kW] = 전압[V] × 전류[A] × (역률/100) ÷ 1,000</div>
+          </div>
+        </div>
+      </div>
+    </div>`;
+}
+
+function p8ResetWh() {
+  const el = document.getElementById('p8w-val'); if(el) el.value='';
+  const sel = document.getElementById('p8w-sel'); if(sel) sel.value='kwh';
+  ['p8w-wh','p8w-kwh','p8w-mwh','p8w-gwh'].forEach(function(id){
+    const e=document.getElementById(id); if(e){e.textContent='-';e.style.color='';autoShrinkEl(e);}
+  });
+}
+function p8ResetElec() {
+  const val=document.getElementById('p8e-val'); if(val) val.value='';
+  const pf=document.getElementById('p8e-pf');  if(pf)  pf.value='100';
+  const sel=document.getElementById('p8e-sel'); if(sel) sel.value='kw';
+  ['p8e-kw','p8e-kva','p8e-hp'].forEach(function(id){
+    const e=document.getElementById(id); if(e){e.textContent='-';e.style.color='';autoShrinkEl(e);}
+  });
+}
+function p8ResetPhase() {
+  p8PhaseMode='1';
+  const a=document.getElementById('p8ph-a');   if(a)   a.value='';
+  const vv=document.getElementById('p8ph-v');  if(vv)  vv.value='220';
+  const pf=document.getElementById('p8ph-pf'); if(pf)  pf.value='100';
+  const card=document.getElementById('card-p8-phase');
+  if(card){
+    card.querySelectorAll('.seg-group .seg-btn').forEach(function(b,i){
+      b.classList.toggle('active', i===0);
+    });
+  }
+  const fml=document.getElementById('p8ph-fml');
+  if(fml){fml.textContent='○ 유효전력[kW] = 전압[V] × 전류[A] × (역률/100) ÷ 1,000';fml.className='fml-label fml-nowrap'}
+  ['p8ph-kw','p8ph-kva'].forEach(function(id){
+    const e=document.getElementById(id); if(e){e.textContent='-';e.style.color='';autoShrinkEl(e);}
+  });
+}
+
+function p8SetPhase(mode, btn) {
+  p8PhaseMode = mode;
+  btn.closest('.seg-group').querySelectorAll('.seg-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  const vEl = document.getElementById('p8ph-v');
+  if (vEl && (vEl.value==='220'||vEl.value==='380')) vEl.value = mode==='1' ? '220' : '380';
+  const fml = document.getElementById('p8ph-fml');
+  if (fml){fml.textContent = mode==='1' ? '○ 유효전력[kW] = 전압[V] × 전류[A] × (역률/100) ÷ 1,000' : '○ 유효전력[kW] = √3 × 전압[V] × 전류[A] × (역률/100) ÷ 1,000';fml.className='fml-label fml-nowrap';}
+  p8CalcPhase();
+}
+
+function p8CalcWh() {
+  const valStr = document.getElementById('p8w-val')?.value;
+  const from   = document.getElementById('p8w-sel')?.value;
+  const units  = [{k:'wh',f:1},{k:'kwh',f:1e3},{k:'mwh',f:1e6},{k:'gwh',f:1e9}];
+  const empty  = (!valStr || isNaN(parseFloat(valStr)));
+  if (empty) { units.forEach(u=>{const e=document.getElementById('p8w-'+u.k);if(e){e.textContent='-';e.style.color='';autoShrinkEl(e);}}); return; }
+  const baseWh = parseFloat(valStr) * (units.find(u=>u.k===from)?.f||1);
+  units.forEach(u => {
+    const e = document.getElementById('p8w-'+u.k); if (!e) return;
+    e.textContent = p8Fmt(baseWh / u.f);
+    e.style.color = (u.k===from) ? 'var(--text-secondary)' : '';
+    autoShrinkEl(e);
+  });
+}
+
+function p8CalcElec() {
+  const valStr = document.getElementById('p8e-val')?.value;
+  const from = document.getElementById('p8e-sel')?.value;
+  const pf = Math.min(100, Math.max(1, parseFloat(document.getElementById('p8e-pf')?.value)||100)) / 100;
+  const ids = ['kw','kva','hp'];
+  const empty = (!valStr || isNaN(parseFloat(valStr)) || parseFloat(valStr) <= 0);
+  if (empty) { ids.forEach(id=>{const e=document.getElementById('p8e-'+id);if(e){e.textContent='-';e.style.color='';autoShrinkEl(e);}}); return; }
+  const val = parseFloat(valStr);
+  let kw = (from==='kw') ? val : (from==='kva') ? val*pf : val*0.7457;
+  const res = {kw, kva:kw/pf, hp:kw/0.7457};
+  ids.forEach(id => {
+    const e = document.getElementById('p8e-'+id); if (!e) return;
+    e.textContent = p8Fmt(res[id]);
+    e.style.color = (id===from) ? 'var(--text-secondary)' : '';
+    autoShrinkEl(e);
+  });
+}
+
+function p8CalcPhase() {
+  const a  = parseFloat(document.getElementById('p8ph-a')?.value)||0;
+  const vv = parseFloat(document.getElementById('p8ph-v')?.value)||0;
+  const pf = Math.min(100,Math.max(0,parseFloat(document.getElementById('p8ph-pf')?.value)||100))/100;
+  const kwEl  = document.getElementById('p8ph-kw');
+  const kvaEl = document.getElementById('p8ph-kva');
+  if (a>0 && vv>0) {
+    const mult = p8PhaseMode==='3' ? 1.732 : 1;
+    if(kwEl) { kwEl.textContent=p8Fmt(mult*a*vv*pf/1000); autoShrinkEl(kwEl); }
+    if(kvaEl){ kvaEl.textContent=p8Fmt(mult*a*vv/1000);   autoShrinkEl(kvaEl); }
+  } else {
+    if(kwEl) { kwEl.textContent='-'; autoShrinkEl(kwEl); }
+    if(kvaEl){ kvaEl.textContent='-'; autoShrinkEl(kvaEl); }
+  }
+}
+
+function injectCopyBtns() {
+  document.querySelectorAll('#dynamic-content .card-header').forEach(function(header) {
+    if (header.querySelector('.btn-save')) return;
+    const card = header.closest('.card');
+    if (!card || !card.id || card.id.startsWith('card-p8')) return;
+    const btnSave = document.createElement('button');
+    btnSave.className = 'btn-save';
+    btnSave.textContent = '이력 생성';
+    btnSave.onclick = function() { showCopyPopup(card.id, true); };
+    header.appendChild(btnSave);
+  });
+}
+
+function _buildPopup(title, actionFn, actionLabel) {
+  const ex = document.getElementById('copy-popup');
+  if (ex) ex.remove();
+  const overlay = document.createElement('div');
+  overlay.id = 'copy-popup';
+  overlay.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;z-index:10000;background:rgba(0,0,0,0.5);display:flex;align-items:flex-start;justify-content:center;padding:80px 20px 20px;';
+  overlay.innerHTML = `<div class="popup-inner"><div class="popup-title">${title}</div><input id="copy-popup-input" class="popup-input" type="text" placeholder="국소명 입력 (선택)"><div class="popup-actions"><button class="popup-btn-cancel" onclick="closeCopyPopup()">취소</button><button class="popup-btn-ok" onclick="${actionFn}">${actionLabel}</button></div></div>`;
+  document.body.appendChild(overlay);
+  overlay.addEventListener('click', function(e){ if(e.target===overlay) closeCopyPopup(); });
+  setTimeout(function(){ document.getElementById('copy-popup-input')?.focus(); }, 50);
+}
+
+function showCopyPopup(cardId, isSave) {
+  const fn = isSave ? "execSave('"+cardId+"')" : "execCopy('"+cardId+"')";
+  const label = isSave ? '이력 생성' : '결과 복사';
+  _buildPopup('국소명 입력', fn, label);
+}
+
+function closeCopyPopup() {
+  const popup = document.getElementById('copy-popup');
+  if (!popup) return;
+  popup.remove();
+}
+
+function buildText(cardId, locationText) {
+  const card = document.getElementById(cardId);
+  if (!card) return '';
+  const lines = [];
+  const now = new Date();
+  const ts = now.getFullYear().toString().slice(2)
+    + '.' + String(now.getMonth()+1).padStart(2,'0')
+    + '.' + String(now.getDate()).padStart(2,'0')
+    + ' ' + String(now.getHours()).padStart(2,'0')
+    + ':' + String(now.getMinutes()).padStart(2,'0');
+  if (locationText) lines.push(locationText);
+  lines.push(ts);
+  const pageTitle = document.getElementById('nav-title')?.textContent || '';
+  const cardTitle = card.querySelector('.card-header h2')?.textContent?.trim() || '';
+  if (pageTitle) lines.push('[' + pageTitle + ']');
+  const activeTab = card.querySelector('.tab-btn.active, .seg-btn.active');
+  const tabText = activeTab ? ' ' + activeTab.textContent.trim() : '';
+  if (cardTitle) lines.push(cardTitle + tabText);
+  const inputLines = [];
+  card.querySelectorAll('.input-col').forEach(function(col) {
+    if (col.offsetParent === null) return;
+    const label = col.querySelector('label');
+    const input = col.querySelector('input');
+    const sel   = col.querySelector('select');
+    if (!label) return;
+    let val = '-';
+    if (input) val = input.value !== '' ? input.value : '-';
+    else if (sel) val = sel.options[sel.selectedIndex]?.text || '-';
+    inputLines.push(label.textContent.trim() + ' : ' + val);
+  });
+  if (inputLines.length) { lines.push(''); inputLines.forEach(function(l){ lines.push(l); }); }
+  const resultLines = [];
+  card.querySelectorAll('.result-row').forEach(function(row) {
+    if (row.offsetParent === null) return;
+    const lbls = row.querySelectorAll('.result-label');
+    const vals = row.querySelectorAll('.result-value');
+    lbls.forEach(function(lbl, i) {
+      const val = vals[i]?.textContent?.trim() || '-';
+      resultLines.push(lbl.textContent.trim() + ' : ' + val);
+    });
+  });
+  if (resultLines.length) { lines.push(''); resultLines.forEach(function(l){ lines.push(l); }); }
+  return lines.join('\n').trim();
+}
+
+function execSave(cardId) {
+  const loc = (document.getElementById('copy-popup-input')?.value || '').trim();
+  closeCopyPopup();
+  const text = buildText(cardId, loc);
+  if (!text) return;
+
+  const texts = _loadHistFromStorage(cardId);
+  texts.unshift(text);
+  if (texts.length > 10) texts.pop();
+  _saveHistToStorage(cardId, texts);
+
+  if (document.getElementById('sidebar')?.classList.contains('open')) renderSidebar();
+  showToast('저장 완료');
+}
+
+function execCopy(cardId) {
+  const loc = (document.getElementById('copy-popup-input')?.value || '').trim();
+  closeCopyPopup();
+  const text = buildText(cardId, loc);
+  if (!text) return;
+  navigator.clipboard.writeText(text).then(function() {
+    showToast('결과 복사');
+  }).catch(function() {
+    const ta = document.createElement('textarea');
+    ta.value = text; ta.style.cssText = 'position:fixed;opacity:0;';
+    document.body.appendChild(ta); ta.select();
+    document.execCommand('copy'); document.body.removeChild(ta);
+    showToast('결과 복사');
+  });
+}
+
+function _histKey(cardId) { return 'hist_' + cardId; }
+
+function _saveHistToStorage(cardId, texts) {
+  try { localStorage.setItem(_histKey(cardId), JSON.stringify(texts)); } catch(e) { if (!(e instanceof DOMException)) throw e; }
+}
+
+function _loadHistFromStorage(cardId) {
+  try { const v = localStorage.getItem(_histKey(cardId)); return v ? JSON.parse(v) : []; } catch(e) { if (e instanceof SyntaxError || e instanceof DOMException) return []; throw e; }
+}
+
+
+function openSidebar() {
+  renderSidebar();
+  document.getElementById('sidebar').classList.add('open');
+  document.getElementById('sidebar-overlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeSidebar() {
+  _closeSidebarDirect();
+}
+
+function _closeSidebarDirect() {
+  document.getElementById('sidebar')?.classList.remove('open');
+  document.getElementById('sidebar-overlay')?.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function renderSidebar() {
+  const body = document.getElementById('sidebar-body');
+  if (!body) return;
+  const cats = ['p1','p2','p3','p4','p5','p6','p7'].map(function(pid) {
+    const cardIds = PAGE_CARDS[pid] || [];
+    const allItems = [];
+    cardIds.forEach(function(cid) {
+      _loadHistFromStorage(cid).forEach(function(text, idx) {
+        allItems.push({ cardId: cid, text: text, cardIdx: idx });
+      });
+    });
+    return { pid: pid, count: allItems.length, allItems: allItems };
+  }).filter(function(cat) { return cat.count > 0; });
+
+  if (cats.length === 0) {
+    body.innerHTML = '<div class="sidebar-empty" style="padding:24px 16px;text-align:center;">저장된 이력이 없습니다.</div>';
+    return;
+  }
+
+  body.innerHTML = cats.map(function(cat) {
+    const pid = cat.pid, allItems = cat.allItems, count = cat.count;
+    const title = pageTitles[pid] || pid;
+    const clearBtn = '<button class="sidebar-cat-clear" onclick="event.stopPropagation();sidebarClearCat(\''+pid+'\')">전체삭제</button>';
+    const chevron = '<svg class="sidebar-cat-chevron" width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    const itemsHTML = allItems.map(function(item) {
+      const safe = item.text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+      return '<div class="sidebar-hist-item" data-card-id="'+item.cardId+'" data-card-idx="'+item.cardIdx+'">'
+        +'<div class="sidebar-hist-text">'+safe+'</div>'
+        +'<div class="sidebar-hist-actions">'
+        +'<button class="sidebar-hist-copy" onclick="sidebarCopyItem(this)">결과 복사</button>'
+        +'<button class="sidebar-hist-del" onclick="sidebarDelItem(this)">삭제</button>'
+        +'</div></div>';
+    }).join('');
+    return '<div class="sidebar-cat">'
+      +'<div class="sidebar-cat-header" data-pid="'+pid+'" onclick="toggleSidebarCat(this)">'
+      +'<span>'+title+'</span>'
+      +'<span class="sidebar-cat-meta">'+clearBtn+'<span class="sidebar-cat-count">'+count+'</span>'+chevron+'</span></div>'
+      +'<div class="sidebar-cat-body">'+itemsHTML+'</div>'
+      +'</div>';
+  }).join('');
+}
+
+function toggleSidebarCat(header) {
+  const isOpen = header.classList.toggle('open');
+  const body = header.nextElementSibling;
+  if (body) body.classList.toggle('open', isOpen);
+}
+
+function sidebarCopyItem(btn) {
+  const item = btn.closest('.sidebar-hist-item');
+  if (!item) return;
+  const texts = _loadHistFromStorage(item.dataset.cardId);
+  const text = texts[parseInt(item.dataset.cardIdx)] || '';
+  if (!text) return;
+  navigator.clipboard.writeText(text).then(function() {
+    showToast('결과 복사');
+  }).catch(function() {
+    const ta = document.createElement('textarea');
+    ta.value = text; ta.style.cssText = 'position:fixed;opacity:0;';
+    document.body.appendChild(ta); ta.select();
+    document.execCommand('copy'); document.body.removeChild(ta);
+    showToast('결과 복사');
+  });
+}
+
+function sidebarDelItem(btn) {
+  const item = btn.closest('.sidebar-hist-item');
+  if (!item) return;
+  const cardId = item.dataset.cardId;
+  const idx = parseInt(item.dataset.cardIdx);
+  if (!cardId || isNaN(idx)) return;
+  const pid = Object.keys(PAGE_CARDS).find(function(p) { return (PAGE_CARDS[p] || []).indexOf(cardId) >= 0; });
+  const openPids = Array.from(document.querySelectorAll('.sidebar-cat-header.open')).map(function(h) { return h.dataset.pid; });
+  const texts = _loadHistFromStorage(cardId);
+  texts.splice(idx, 1);
+  _saveHistToStorage(cardId, texts);
+  showToast('삭제 완료');
+  renderSidebar();
+  openPids.forEach(function(p) {
+    const h = document.querySelector('.sidebar-cat-header[data-pid="'+p+'"]');
+    if (h) { h.classList.add('open'); const b = h.nextElementSibling; if (b) b.classList.add('open'); }
+  });
+  if (pid && openPids.indexOf(pid) < 0) {
+    const h = document.querySelector('.sidebar-cat-header[data-pid="'+pid+'"]');
+    if (h) { h.classList.add('open'); const b = h.nextElementSibling; if (b) b.classList.add('open'); }
+  }
+}
+
+function sidebarClearCat(pid) {
+  (PAGE_CARDS[pid] || []).forEach(function(cid) { _saveHistToStorage(cid, []); });
+  showToast('전체 삭제');
+  renderSidebar();
+}
+
+let _toastTimer = null;
+function showToast(msg) {
+  const ex = document.getElementById('toast');
+  if (ex) ex.remove();
+  clearTimeout(_toastTimer);
+  const el = document.createElement('div');
+  el.id = 'toast';
+  el.className = 'toast';
+  el.textContent = msg;
+  document.body.appendChild(el);
+  requestAnimationFrame(function() { el.classList.add('show'); });
+  _toastTimer = setTimeout(function() {
+    el.classList.remove('show');
+    setTimeout(function() { el.remove(); }, 250);
+  }, 2000);
+}
+
+// 확대/축소 차단 (Ctrl+휠, Ctrl +/-/0, 트랙패드 핀치)
+window.addEventListener('wheel', function(e) {
+  if (e.ctrlKey) e.preventDefault();
+}, { passive: false });
+window.addEventListener('keydown', function(e) {
+  if ((e.ctrlKey || e.metaKey) && ['+', '=', '-', '_', '0'].includes(e.key)) e.preventDefault();
+});
+['gesturestart', 'gesturechange', 'gestureend'].forEach(function(t) {
+  document.addEventListener(t, function(e) { e.preventDefault(); });
+});
+
+</script>
+</body>
+</html>
